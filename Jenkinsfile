@@ -1,17 +1,22 @@
+
 pipeline {
     agent any
+    
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Gururaj-14/KPIData.git'
-            }
-        }
         stage('Build') {
             steps {
-                sh 'make'
-                // Or use cmake, g++, etc. depending on your build process
+                // Checkout the code from the Git repository
+                git 'https://github.com/Gururaj-14/KPIData.git'
+               
+                // Compile the C++ program
+                sh 'g++ -o hello_world hello_world.cpp'
             }
         }
-        // Add more stages for testing, packaging, etc. as needed
+        stage('Run') {
+            steps {
+                // Run the compiled program
+                sh './hello_world'
+            }
+        }
     }
 }
