@@ -22,7 +22,7 @@ pipeline {
                 dir('KPIData') {
                     // Compile the C++ program
                     bat '"C:\\msys64\\ucrt64\\bin\\g++.exe" -o hello_world.exe hello_world.cpp';
-                    bat 'echo 'finished'';
+                    echo 'finished';
                 }
             }
         }
