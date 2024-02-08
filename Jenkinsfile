@@ -19,11 +19,11 @@ pipeline {
         stage('Run') {
             steps {
                 // Navigate to the directory where the code is cloned
-                dir('KPIData') {
+                //dir('KPIData') {
                     // Compile the C++ program
                     bat '"C:\\msys64\\ucrt64\\bin\\g++.exe" -o hello_world.exe hello_world.cpp';
                     echo 'finished';
-                }
+                //}
             }
         }
     }
