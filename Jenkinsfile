@@ -11,8 +11,6 @@ pipeline {
                         git branch: 'main', url: 'git clone https://github.com/Gururaj-14/KPIData.git'
                     } else {
                         echo 'Directory "KPIData" already exists, skipping cloning.'
-			bat 'rmdir /s /q KPIData'
-			bat 'git branch: 'main', url: 'git clone https://github.com/Gururaj-14/KPIData.git''
                     }
                 }
             }
