@@ -9,7 +9,7 @@ pipeline {
                     if (!fileExists('KPIData')) {
                         // Clone the code from the Git repository
                                                 echo 'Directory "KPIData" already not exists, skipping cloning.'
-                        git clone https://github.com/Gururaj-14/KPIData.git/
+                        git clone "https://github.com/Gururaj-14/KPIData.git/"
                     } else {
                         echo 'Directory "KPIData" already exists, skipping cloning.'
                     }
