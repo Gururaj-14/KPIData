@@ -12,9 +12,9 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the example branch
-		git clone "https://github.com/Gururaj-14/KPIData.git"
-		git checkout "example"
-                //git branch: "example", url: 'https://github.com/yourusername/yourrepository.git'
+		//git clone "https://github.com/Gururaj-14/KPIData.git"
+		//git checkout "example"
+        git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'
             }
         }
         stage('Build') {
