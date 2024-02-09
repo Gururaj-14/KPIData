@@ -32,7 +32,8 @@ pipeline {
         stage('Release') {
             steps {
                 // Copy the executable to a known location
-                bat "copy ${PROJECT_DIR}\\example_plc.exe ."
+                bat "copy ${PROJECT_DIR}\\release\\plcsimulator.exe ."
+                bat "C:\\Qt\\5.14.2\\mingw73_64\\bin\\windeployqt.exe --release --no-compiler-runtime plcsimulator.exe"
             }
         }
         stage('Deploy') {
@@ -41,7 +42,8 @@ pipeline {
                 git branch: "${DEV_BRANCH}", url: 'https://github.com/Gururaj-14/KPIData.git'
                 
                 // Copy the executable to the repository
-                bat "copy example_plc.exe ${PROJECT_DIR}\\example_plc.exe"
+
+                //bat "copy plcsimulator.exe ${PROJECT_DIR}\\example_plc.exe"
                 
                 // Add, commit, and push the executable to the dev branch
                 bat "git add ${PROJECT_DIR}\\example_plc.exe"
