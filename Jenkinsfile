@@ -22,6 +22,7 @@ pipeline {
                 // Navigate to the project directory
                 bat "cd ${PROJECT_DIR}"
                 
+                bat "g++ --version"
                 // Run qmake to generate the Makefile
                 bat "cd ${PROJECT_DIR} &&  ${QT_INSTALL_DIR}\\qmake.exe plcsimulator.pro && C:\\Qt\\Tools\\mingw730_64\\bin\\mingw32-make.exe"
                 

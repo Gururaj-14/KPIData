@@ -5,8 +5,6 @@ CONFIG += qtquickcompiler
 QMAKE_CXXFLAGS += -O3
 CONFIG += c++1z
 
-QMAKE_CXX = C:\msys64\ucrt64\bin\g++.exe
-
 #DEFINES += ROS_SOFTWARE_VERSION=$$system(git describe)
 linux:QMAKE_LFLAGS += -rdynamic
 
