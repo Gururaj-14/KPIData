@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>DB310.AWL</file>
+        <file>DB311.AWL</file>
+        <file>C_logo_48x48x32.ico</file>
+        <file>settingsIcon.svg</file>
+    </qresource>
+</RCC>
