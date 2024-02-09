@@ -23,7 +23,7 @@ pipeline {
                 bat "cd ${PROJECT_DIR}"
                 
                 // Run qmake to generate the Makefile
-                bat "${QT_INSTALL_DIR}\\qmake.exe"
+                bat "${QT_INSTALL_DIR}\\qmake.exe -makefile"
                 
                 // Build the project
                 bat "mingw32-make.exe"
