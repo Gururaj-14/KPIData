@@ -2,8 +2,7 @@
 #include <QCommandLineParser>
 #include <QCoreApplication>
 #include <QString>
-#include <QDir>
-#include <QDebug>
+
 #include <versioninfo.h>
 
 struct Configuration
@@ -54,13 +53,12 @@ struct Defaults
     const QString DEFAULT_PORT_ROS_PLC = "2000";
     const QString DEFAULT_PORT_CRANE_PLC = "2001";
     const QString DEFAULT_PORT_YARD_PLC = "2002";
-
-    const QString DEFAULT_DB_FILE_ROS_TO_VIDEOSERVER = "DB311_ROS_PLC_to_AV_ROS.db"; //
-    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_ROS = "DB344_AV_to_ROS_PLC_ROS.db"; //
-    const QString DEFAULT_DB_FILE_CRANE_TO_VIDEOSERVER = "DB312_ROS_PLC_to_AV_Crane.db"; //
-    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_CRANE = "DB345_AV_to_ROS_PLC_Crane.db"; //
-    const QString DEFAULT_DB_FILE_YARD_TO_VIDEOSERVER = "DB313_YARD_PLC_to_AV_Yard.db"; //
-    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_YARD = "DB346_AV_to_YARD_PLC_Yard.db"; //
+    const QString DEFAULT_DB_FILE_ROS_TO_VIDEOSERVER = ":/DB311_ROS_PLC_to_AV_ROS.db"; //
+    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_ROS = ":/DB344_AV_to_ROS_PLC_ROS.db"; //
+    const QString DEFAULT_DB_FILE_CRANE_TO_VIDEOSERVER = ":/DB312_ROS_PLC_to_AV_Crane.db"; //
+    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_CRANE = ":/DB345_AV_to_ROS_PLC_Crane.db"; //
+    const QString DEFAULT_DB_FILE_YARD_TO_VIDEOSERVER = ":/DB313_YARD_PLC_to_AV_Yard.db"; //
+    const QString DEFAULT_DB_FILE_VIDEOSERVER_TO_YARD = ":/DB346_AV_to_YARD_PLC_Yard.db"; //
     const QString DEFAULT_MSG_COUNTER_TAG = "WATCHDOG";
     const uint DEFAULT_INTERVAL_OUT = 50;
     const QString DEFAULT_LOG_FILE = "plcsimul.log";

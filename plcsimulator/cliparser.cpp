@@ -3,7 +3,6 @@
 Configuration CLIParser::parseCliOptions(Defaults defaults, QCoreApplication& app)
 {
     QCommandLineParser parser;
-
     parser.setApplicationDescription("\nSiemens S7 PLC Message Simulator."
                                      "\n \nDefault values in braces.");
     parser.addHelpOption();
@@ -49,8 +48,6 @@ Configuration CLIParser::parseCliOptions(Defaults defaults, QCoreApplication& ap
     QCommandLineOption fullLoggingOption(QStringList() << "full-logging", "Enable full logging");
     parser.addOption(fullLoggingOption);
 
-
-
     QCommandLineOption logFileOption(QStringList() << "logfile",
             QString("File for logs (%0)").arg(defaults.DEFAULT_LOG_FILE),
             "string");
@@ -61,8 +58,6 @@ Configuration CLIParser::parseCliOptions(Defaults defaults, QCoreApplication& ap
             "ip");
 
     parser.addOption(videoserverIpOption);
-
-
 
     QCommandLineOption videoserverPortRosOption(QStringList() << "port-videoserver-ros",
             QString("ROS PLC Port on Video Server (%0)")
@@ -121,44 +116,39 @@ Configuration CLIParser::parseCliOptions(Defaults defaults, QCoreApplication& ap
             "interval in ms");
     parser.addOption(intervalOutOption);
 
-    //default db files change
-    QString programDir = QCoreApplication::applicationDirPath();
-    //qDebug()<< programDir;
-
-
     QCommandLineOption dbRosToServerOption(QStringList() << "db-out-ros",
             QString("Datablock PLC TO VIDEOSERVER (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_ROS_TO_VIDEOSERVER),
+                    .arg(defaults.DEFAULT_DB_FILE_ROS_TO_VIDEOSERVER),
             ".AWL file");
     parser.addOption(dbRosToServerOption);
 
     QCommandLineOption dbServerToPlcOption(QStringList() << "db-in-ros",
             QString("Datablock VIDEOSERVER TO PLC (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_ROS),
+                    .arg(defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_ROS),
             ".AWL file");
     parser.addOption(dbServerToPlcOption);
 
     QCommandLineOption dbCraneToServerOption(QStringList() << "db-out-crane",
             QString("Datablock CRANE TO VIDEOSERVER (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_CRANE_TO_VIDEOSERVER),
+                    .arg(defaults.DEFAULT_DB_FILE_CRANE_TO_VIDEOSERVER),
             ".AWL file");
     parser.addOption(dbCraneToServerOption);
 
     QCommandLineOption dbServerToCraneOption(QStringList() << "db-in-crane",
             QString("Datablock VIDEOSERVER TO CRANE (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_CRANE),
+                    .arg(defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_CRANE),
             ".AWL file");
     parser.addOption(dbServerToCraneOption);
 
     QCommandLineOption dbYardToServerOption(QStringList() << "db-out-yard",
             QString("Datablock YARD TO VIDEOSERVER (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_YARD_TO_VIDEOSERVER),
+                    .arg(defaults.DEFAULT_DB_FILE_YARD_TO_VIDEOSERVER),
             ".AWL file");
     parser.addOption(dbYardToServerOption);
 
     QCommandLineOption dbServerToYardOption(QStringList() << "db-in-yard",
             QString("Datablock VIDEOSERVER TO YARD (%0)")
-                    .arg(programDir + QDir::separator() +defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_YARD),
+                    .arg(defaults.DEFAULT_DB_FILE_VIDEOSERVER_TO_YARD),
             ".AWL file");
 
     parser.addOption(dbServerToYardOption);
