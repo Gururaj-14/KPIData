@@ -4,6 +4,7 @@ QT += quick core widgets
 CONFIG += qtquickcompiler
 QMAKE_CXXFLAGS += -O3
 CONFIG += c++1z
+QMAKE_CXX='C:\Qt\Tools\mingw730_64\bin\g++.exe'
 
 #DEFINES += ROS_SOFTWARE_VERSION=$$system(git describe)
 linux:QMAKE_LFLAGS += -rdynamic
