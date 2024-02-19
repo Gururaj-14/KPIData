@@ -1,9 +1,9 @@
 pipeline {
-    agent{
-	docker{
-    image 'qt-image:latest'
-}
-}
+    agent {
+	docker {
+    		image 'qt-image:latest'
+	}
+    }
     stages {
         stage('Checkout') {
             steps {
