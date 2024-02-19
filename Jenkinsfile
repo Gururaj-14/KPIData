@@ -2,6 +2,7 @@ pipeline {
     agent {
 	docker {
     		image 'qt-image:latest'
+		args '-v C:/ProgramData/Jenkins/.jenkins/workspace/qt_app:/plcsimulator'
 	}
     }
     stages {
