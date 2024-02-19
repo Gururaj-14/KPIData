@@ -1,7 +1,7 @@
 pipeline {
     agent{
 	docker{
-    qt-image:latest
+    image 'qt-image:latest'
 }
 }
     stages {
