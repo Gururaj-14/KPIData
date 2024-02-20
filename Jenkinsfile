@@ -10,12 +10,9 @@ pipeline {
         stage('Checkout') {
             steps {
 		//git branch: 'your_branch_name', credentialsId: 'your_credentials_id', url: 'https://github.com/your_username/your_repository.git'
-		
-		script 
-		    {
-			    cd
-			    docker run --rm -it ubuntu_for_qt
-		    }
+		cd
+		docker run --rm -it ubuntu_for_qt
+		    
                 //sh 'unzip *Code*.zip'
 		sh 'pwd'
 		git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'
