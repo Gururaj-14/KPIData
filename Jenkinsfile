@@ -11,7 +11,7 @@ pipeline {
             steps {
 		//git branch: 'your_branch_name', credentialsId: 'your_credentials_id', url: 'https://github.com/your_username/your_repository.git'
 		bat "cd"
-		bat "docker run --rm -it ubuntu_for_qt"
+		bat "winpty docker run --rm -it ubuntu_for_qt"
 		    
                 //sh 'unzip *Code*.zip'
 		sh 'pwd'
