@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'ubuntu_for_qt:tag'
+            image 'ubuntu_for_qt:latest'
             args '-u root' // If root access is needed within the container
         }
      }
