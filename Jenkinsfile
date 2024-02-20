@@ -8,7 +8,9 @@ pipeline {
 	
     stages {
         stage('Checkout') {
+		
             steps {
+		    dir("C://ProgramData//Jenkins//.jenkins/workspace//plc_simulator//"){
 		//git branch: 'your_branch_name', credentialsId: 'your_credentials_id', url: 'https://github.com/your_username/your_repository.git'
 		//bat "cd"
 		//bat "winpty docker run --rm -it ubuntu_for_qt"
@@ -20,12 +22,15 @@ pipeline {
 		sh 'pwd'
 		sh 'ls'
 		sh 'pwd'
+		    }
             }
         }
         stage('Clean') {
             steps {
+		    dir("C://ProgramData//Jenkins//.jenkins/workspace//plc_simulator//"){
 		sh 'pwd'
                 sh 'qmake -makefile'
+		    }
             }
         }
         stage('Configure') {
