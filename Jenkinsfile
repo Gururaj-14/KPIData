@@ -1,7 +1,7 @@
 pipeline {
     agent {
 	docker {
-    		image 'qt-image:latest'
+    		image 'ubuntu_for_qt:latest'
 		args '-v C://ProgramData//Jenkins//.jenkins//workspace//qt_app://plcsimulator'
 	}
     }
