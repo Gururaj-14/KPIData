@@ -2,8 +2,8 @@ pipeline {
     agent {
         docker {
             image 'ubuntu_for_qt:latest'
-            args '-u root' // If root access is needed within the container
-	    args 'C://ProgramData//Jenkins//.jenkins//workspace//plc_simulator//plcsimulator//'
+            //args '-u root' // If root access is needed within the container
+	    //args 'C://ProgramData//Jenkins//.jenkins//workspace//plc_simulator//plcsimulator//'
         }
      }
 	
@@ -11,6 +11,7 @@ pipeline {
         stage('Checkout') {
 		
             steps {
+		bat "cd"
 		    dir("C://ProgramData//Jenkins//.jenkins/workspace//plc_simulator//plcsimulator//"){
 		//git branch: 'your_branch_name', credentialsId: 'your_credentials_id', url: 'https://github.com/your_username/your_repository.git'
 		//bat "cd"
