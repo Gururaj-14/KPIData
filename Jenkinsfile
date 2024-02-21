@@ -17,7 +17,6 @@ pipeline {
 		sh 'pwd'
 		    }
             }
-        }
         stage('Clean') {
             steps {
 		    dir("C://ProgramData//Jenkins//.jenkins/workspace//plc_simulator//plcsimulator//"){
@@ -49,4 +48,5 @@ pipeline {
                   echo 'Deploy'
             }
         }
+    }
 }
