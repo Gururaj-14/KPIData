@@ -8,7 +8,6 @@ pipeline {
 			docker
 			{
 				image "ubuntu_for_qt:latest"
-				lable 'any'
 			}
 		}
 			
