@@ -6,8 +6,10 @@ environment {
     }
     stages {
         stage('Checkout') {
+		agent{
 		docker {
 		image "$DOCKER_IMAGE"
+		}
 		}
             steps {
 		script{
