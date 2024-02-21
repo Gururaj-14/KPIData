@@ -8,6 +8,7 @@ environment {
         stage('Checkout') {
             steps {
 		script{
+			echo "${WORKSPACE}"
 		def dockerImage = docker.image("${DOCKER_IMAGE}")
                     dockerImage.inside("-v ${WORKING_DIRECTORY}:/app -w /app") {
 			                            sh 'echo "Working directory mounted successfully"'
