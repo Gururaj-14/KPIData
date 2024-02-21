@@ -1,6 +1,10 @@
 pipeline {
     agent any
-	
+environment {
+        //DOCKER_REGISTRY = 'your-docker-registry-url'
+        DOCKER_IMAGE = 'ubuntu_for_qt'
+        WORKING_DIRECTORY = '\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2'
+    }
     stages {
         stage('Checkout') {
 		agent 
