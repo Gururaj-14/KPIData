@@ -49,5 +49,4 @@ pipeline {
                   echo 'Deploy'
             }
         }
-    }
 }
