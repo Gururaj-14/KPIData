@@ -3,8 +3,17 @@ pipeline {
 	
     stages {
         stage('Checkout') {
+		agent 
+		{
+			docker
+			{
+				image "ubuntu_for_qt:latest"
+				lable 'any'
+			}
+		}
+			
             steps {
-		    script{
+		script{
 		def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
 
 		sh "docker exec -it ${containerId} ls -l"
