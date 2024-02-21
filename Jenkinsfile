@@ -32,6 +32,7 @@ pipeline {
 		sh 'ls'
 		sh 'pwd'
 		    }
+		}
 	    }
             }
         stage('Clean') {
