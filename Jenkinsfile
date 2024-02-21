@@ -14,7 +14,7 @@ pipeline {
             steps {
 		script{
 		def dockerImage = docker.image("ubuntu_for_qt:latest")
-                    dockerImage.inside("-v \\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator:/app -w /app") {
+                    dockerImage.inside("-v '\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator':/app -w /app") {
 		//def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
 
 		//sh "docker exec -it ${containerId} ls -l"
