@@ -8,6 +8,7 @@ pipeline {
 			docker
 			{
 				image "ubuntu_for_qt:latest"
+				args "\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2"
 			}
 		}
 			
