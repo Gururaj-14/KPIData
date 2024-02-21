@@ -1,29 +1,26 @@
 pipeline {
     agent any
-environment {
-        //DOCKER_REGISTRY = 'your-docker-registry-url'
-        DOCKER_IMAGE = 'ubuntu_for_qt'
-        WORKING_DIRECTORY = '\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2'
-    }
     stages {
         stage('Checkout') {
-		agent 
-		{
-			docker
-			{
-				image "ubuntu_for_qt:latest"
-				args "\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2"
-			}
-		}
+		// agent 
+		// {
+		// 	docker
+		// 	{
+		// 		image "ubuntu_for_qt:latest"
+		// 		args "\\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2"
+		// 	}
+		// }
 			
             steps {
 		script{
-		def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
+		def dockerImage = docker.build("ubuntu_for_qt:latest")
+                    dockerImage.inside("-v \\ProgramData\\Jenkins\\.jenkins\\workspace\\plc_simulator@2:/app -w /app") {
+		//def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
 
-		sh "docker exec -it ${containerId} ls -l"
-		sh "docker exec -it ${containerId} git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'"
+		//sh "docker exec -it ${containerId} ls -l"
+		//sh "docker exec -it ${containerId} git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'"
 
-		bat 'docker run ubuntu_for_qt:latest bash -c "echo Hello World"'
+		//bat 'docker run ubuntu_for_qt:latest bash -c "echo Hello World"'
 		
                 //sh 'unzip *Code*.zip'
 		bat "cd"
