@@ -5,7 +5,7 @@ pipeline {
     }
     		agent{
 		docker {
-		image "$DOCKER_IMAGE"
+		image "ubuntu_for_qt"
 		}
 		}
 
