@@ -1,13 +1,14 @@
 pipeline {
+	environment {
+        DOCKER_IMAGE = 'ubuntu_for_qt'
+        WORKING_DIRECTORY = '${WORKSPACE}'
+    }
     		agent{
 		docker {
 		image "$DOCKER_IMAGE"
 		}
 		}
-environment {
-        DOCKER_IMAGE = 'ubuntu_for_qt'
-        WORKING_DIRECTORY = '${WORKSPACE}'
-    }
+
     stages {
         stage('Checkout') {
             steps {
