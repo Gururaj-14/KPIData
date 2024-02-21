@@ -1,16 +1,15 @@
 pipeline {
-    agent any
+    		agent{
+		docker {
+		image "$DOCKER_IMAGE"
+		}
+		}
 environment {
         DOCKER_IMAGE = 'ubuntu_for_qt'
         WORKING_DIRECTORY = '${WORKSPACE}'
     }
     stages {
         stage('Checkout') {
-		agent{
-		docker {
-		image "$DOCKER_IMAGE"
-		}
-		}
             steps {
 		script{
 			echo "${WORKSPACE}"
