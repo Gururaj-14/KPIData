@@ -6,9 +6,11 @@ pipeline {
 		
             steps {
 		bat "cd plcsimulator"
-		bat 'docker run ubuntu bash -c "echo Hello World"'
+		bat 'docker run ubuntu_for_qt:latest bash -c "echo Hello World"'
 		
                 //sh 'unzip *Code*.zip'
+		bat "cd"
+		bat "pwd"
 		sh 'pwd'
 		git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'
 		sh 'cd plcsimulator'
