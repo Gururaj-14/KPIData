@@ -2,7 +2,7 @@ pipeline {
     agent any
 environment {
         DOCKER_IMAGE = 'ubuntu_for_qt'
-        WORKING_DIRECTORY = '"C:\programData\jenkins\.jenkins\workspace\plc_simulator"'
+        WORKING_DIRECTORY = '"C:\\programData\\jenkins\\.jenkins\\workspace\\plc_simulator"'
     }
     stages {
         stage('Checkout') {
