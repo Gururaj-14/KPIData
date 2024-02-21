@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
+		    script{
 		def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
 
 		sh "docker exec -it ${containerId} ls -l"
@@ -21,6 +22,7 @@ pipeline {
 		sh 'ls'
 		sh 'pwd'
 		    }
+	    }
             }
         stage('Clean') {
             steps {
