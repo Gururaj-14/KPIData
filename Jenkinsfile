@@ -3,7 +3,7 @@ pipeline {
         docker {
             image 'ubuntu_for_qt:latest'
             //args '-u root' // If root access is needed within the container
-	    //args 'C://ProgramData//Jenkins//.jenkins//workspace//plc_simulator//plcsimulator//'
+	    args "C://ProgramData//Jenkins//.jenkins//workspace//plc_simulator//plcsimulator//"
         }
      }
 	
