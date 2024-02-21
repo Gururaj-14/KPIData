@@ -22,7 +22,7 @@ environment {
 		//bat 'docker run ubuntu_for_qt:latest bash -c "echo Hello World"'
 		    }
 		}
-	    }
+	   // }
 	}
     }
 }
