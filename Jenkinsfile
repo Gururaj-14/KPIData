@@ -18,14 +18,12 @@ pipeline {
 		sh 'pwd'
 		}
             }
-        }
         stage('Clean') {
             steps {
 		sh 'pwd'
                 sh 'cd plcsimulator/ && qmake -makefile'
 		}
             }
-        }
         stage('Configure') {
             steps {
                  sh 'cd plcsimulator/ && make'
