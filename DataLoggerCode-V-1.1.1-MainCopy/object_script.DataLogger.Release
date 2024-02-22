@@ -1,0 +1,16 @@
+release/about.o
+release/datarecord.o
+release/db_metrics.o
+release/exportcsv.o
+release/main.o
+release/qcustomplot.o
+release/scaling.o
+release/selection.o
+release/qrc_img.o
+release/moc_about.o
+release/moc_datarecord.o
+release/moc_db_metrics.o
+release/moc_exportcsv.o
+release/moc_qcustomplot.o
+release/moc_scaling.o
+release/moc_selection.o

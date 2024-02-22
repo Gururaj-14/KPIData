@@ -1,0 +1,16 @@
+debug/about.o
+debug/datarecord.o
+debug/db_metrics.o
+debug/exportcsv.o
+debug/main.o
+debug/qcustomplot.o
+debug/scaling.o
+debug/selection.o
+debug/qrc_img.o
+debug/moc_about.o
+debug/moc_datarecord.o
+debug/moc_db_metrics.o
+debug/moc_exportcsv.o
+debug/moc_qcustomplot.o
+debug/moc_scaling.o
+debug/moc_selection.o

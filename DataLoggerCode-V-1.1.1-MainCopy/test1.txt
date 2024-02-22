@@ -1,0 +1,2796 @@
+{
+	"CART" : 
+	[
+		{
+			"Header" : 
+			[
+				{
+					"Header_Crane_ID" : "Crane ID (G number)",
+					"Header_Len" : "Lenght of Data",
+					"Header_Sender" : "Sender ID",
+					"Header_Spare_I10" : "NA",
+					"Header_Spare_I8" : "NA",
+					"Header_seq" : "NA"
+				}
+			]
+		},
+		{
+			"A1" : 
+			[
+				{
+					"A1_PD1" : "Speed",
+					"A1_PD2" : "Current",
+					"A1_PD5" : "Unit Temp",
+					"A1_PD8" : "Fault codes",
+					"A1_PDn" : "NA",
+					"A1_REF1" : "Speed reference",
+					"Bits" : 
+					[
+						{
+							"A1_Bits__CW1_Ramp2" : "RAMP2",
+							"A1_Bits__CW1_S1" : "DIR 1",
+							"A1_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"A1_Bits__CW1_S2" : "DIR 2",
+							"A1_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"A1_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"A1_Bits__FaultInverted" : "NOT FAULT",
+							"A1_Bits__K7" : "BRAKE CONTROL",
+							"A1_Bits__Ready" : "READY",
+							"A1_Bits__Spare_x0_7" : "NA",
+							"A1_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"A1_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"A1_Bits__VA_DriveOK" : "Drive OK",
+							"A1_Bits__VA_RUN" : "RUN",
+							"A1_Bits__spare_x1_6" : "NA",
+							"A1_Bits__spare_x1_7" : "NA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"A2" : 
+			[
+				{
+					"A2_PD1" : "Speed",
+					"A2_PD2" : "Current",
+					"A2_PD5" : "Unit Temp",
+					"A2_PD8" : "Fault codes",
+					"A2_PDn" : "NA",
+					"A2_REF1" : "Speed reference",
+					"Bits" : 
+					[
+						{
+							"A2_Bits__CW1_Ramp2" : "RAMP2",
+							"A2_Bits__CW1_S1" : "DIR 1",
+							"A2_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"A2_Bits__CW1_S2" : "DIR 2",
+							"A2_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"A2_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"A2_Bits__FaultInverted" : "NOT FAULT",
+							"A2_Bits__K7" : "BRAKE CONTROL",
+							"A2_Bits__Ready" : "READY",
+							"A2_Bits__Spare_x0_7" : "NA",
+							"A2_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"A2_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"A2_Bits__VA_DriveOK" : "Drive OK",
+							"A2_Bits__VA_RUN" : "RUN",
+							"A2_Bits__spare_x1_6" : "NA",
+							"A2_Bits__spare_x1_7" : "NA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"E" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"E_Bits__CW1_S1" : "DIR 1",
+							"E_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"E_Bits__CW1_S2" : "DIR 2",
+							"E_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"E_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"E_Bits__CW2_Setposition" : "Encoder calibration",
+							"E_Bits__CW3_FloatingBypass" : "Floating Bypass",
+							"E_Bits__FaultInverted" : "NOT FAULT",
+							"E_Bits__K7" : "BRAKE CONTROL",
+							"E_Bits__Ready" : "READY",
+							"E_Bits__Spare_x0_7" : "NA",
+							"E_Bits__Spare_x1_7" : "NA",
+							"E_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"E_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"E_Bits__VA_DriveOK" : "Drive OK",
+							"E_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"E_PD1" : "Speed",
+					"E_PD2" : "Current",
+					"E_PD5" : "Unit Temp",
+					"E_PD8" : "Fault codes",
+					"E_PDn" : "NA",
+					"E_REF1" : "Speed reference"
+				}
+			]
+		},
+		{
+			"R1" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"R1_Bits__CW1_AltControlMode" : "Alt control Mode",
+							"R1_Bits__CW1_S1" : "DIR 1",
+							"R1_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"R1_Bits__CW1_S2" : "DIR 2",
+							"R1_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"R1_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"R1_Bits__CW3_FloatingBypass" : "Floating Bypass",
+							"R1_Bits__FaultInverted" : "NOT FAULT",
+							"R1_Bits__K7" : "BRAKE CONTROL",
+							"R1_Bits__Ready" : "READY",
+							"R1_Bits__Spare_x0_7" : "NA",
+							"R1_Bits__Spare_x1_7" : "NA",
+							"R1_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"R1_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"R1_Bits__VA_DriveOK" : "Drive OK",
+							"R1_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"R1_PD1" : "Speed",
+					"R1_PD2" : "Current",
+					"R1_PD5" : "Unit Temp",
+					"R1_PD8" : "Fault codes",
+					"R1_PDn" : "NA",
+					"R1_REF1" : "Speed reference"
+				}
+			]
+		},
+		{
+			"R2" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"R2_Bits__CW1_AltControlMode" : "Alt control Mode",
+							"R2_Bits__CW1_S1" : "DIR 1",
+							"R2_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"R2_Bits__CW1_S2" : "DIR 2",
+							"R2_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"R2_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"R2_Bits__CW3_FloatingBypass" : "Floating Bypass",
+							"R2_Bits__FaultInverted" : "NOT FAULT",
+							"R2_Bits__K7" : "BRAKE CONTROL",
+							"R2_Bits__Ready" : "READY",
+							"R2_Bits__Spare_x0_7" : "NA",
+							"R2_Bits__Spare_x1_7" : "NA",
+							"R2_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"R2_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"R2_Bits__VA_DriveOK" : "Drive OK",
+							"R2_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"R2_PD1" : "Speed",
+					"R2_PD2" : "Current",
+					"R2_PD5" : "Unit Temp",
+					"R2_PD8" : "Fault codes",
+					"R2_PDn" : "NA",
+					"R2_REF1" : "Speed reference"
+				}
+			]
+		},
+		{
+			"R3" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"R3_Bits__CW1_AltControlMode" : "Alt control Mode",
+							"R3_Bits__CW1_S1" : "DIR 1",
+							"R3_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"R3_Bits__CW1_S2" : "DIR 2",
+							"R3_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"R3_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"R3_Bits__CW3_FloatingBypass" : "Floating Bypass",
+							"R3_Bits__FaultInverted" : "NOT FAULT",
+							"R3_Bits__K7" : "BRAKE CONTROL",
+							"R3_Bits__Ready" : "READY",
+							"R3_Bits__Spare_x0_7" : "NA",
+							"R3_Bits__Spare_x1_7" : "NA",
+							"R3_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"R3_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"R3_Bits__VA_DriveOK" : "Drive OK",
+							"R3_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"R3_PD1" : "Speed",
+					"R3_PD2" : "Current",
+					"R3_PD5" : "Unit Temp",
+					"R3_PD8" : "Fault codes",
+					"R3_PDn" : "NA",
+					"R3_REF1" : "Speed reference"
+				}
+			]
+		},
+		{
+			"R4" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"R4_Bits__CW1_AltControlMode" : "Alt control Mode",
+							"R4_Bits__CW1_S1" : "DIR 1",
+							"R4_Bits__CW1_S12" : "STOP LIMIT DIR1",
+							"R4_Bits__CW1_S2" : "DIR 2",
+							"R4_Bits__CW1_S22" : "STOP LIMIT DIR2",
+							"R4_Bits__CW2_RunDisable" : "RUN_DISABLE",
+							"R4_Bits__CW3_FloatingBypass" : "Floating Bypass",
+							"R4_Bits__FaultInverted" : "NOT FAULT",
+							"R4_Bits__K7" : "BRAKE CONTROL",
+							"R4_Bits__Ready" : "READY",
+							"R4_Bits__Spare_x0_7" : "NA",
+							"R4_Bits__Spare_x1_7" : "NA",
+							"R4_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"R4_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"R4_Bits__VA_DriveOK" : "Drive OK",
+							"R4_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"R4_PD1" : "Speed",
+					"R4_PD2" : "Current",
+					"R4_PD5" : "Unit Temp",
+					"R4_PD8" : "Fault codes",
+					"R4_PDn" : "NA",
+					"R4_REF1" : "Speed reference"
+				}
+			]
+		},
+		{
+			"B1" : 
+			[
+				{
+					"B1_PD1" : "Speed",
+					"B1_PD2" : "Current",
+					"B1_PD5" : "Unit Temp",
+					"B1_PD8" : "Fault codes",
+					"B1_PDn" : "NA",
+					"B1_REF2" : "Torque reference",
+					"Bits" : 
+					[
+						{
+							"B1_Bits__CW1_S1" : "DIR 1",
+							"B1_Bits__FaultInverted" : "NOT FAULT",
+							"B1_Bits__K7" : "BRAKE CONTROL",
+							"B1_Bits__Ready" : "READY",
+							"B1_Bits__Spare_x0_5" : "NA",
+							"B1_Bits__Spare_x0_6" : "NA",
+							"B1_Bits__Spare_x0_7" : "NA",
+							"B1_Bits__Spare_x1_1" : "NA",
+							"B1_Bits__Spare_x1_2" : "NA",
+							"B1_Bits__Spare_x1_3" : "NA",
+							"B1_Bits__Spare_x1_4" : "NA",
+							"B1_Bits__Spare_x1_5" : "NA",
+							"B1_Bits__Spare_x1_6" : "NA",
+							"B1_Bits__Spare_x1_7" : "NA",
+							"B1_Bits__VA_DriveOK" : "Drive OK",
+							"B1_Bits__VA_RUN" : "RUN"
+						}
+					]
+				}
+			]
+		},
+		{
+			"B2" : 
+			[
+				{
+					"B2_PD1" : "Speed",
+					"B2_PD2" : "Current",
+					"B2_PD5" : "Unit Temp",
+					"B2_PD8" : "Fault codes",
+					"B2_PDn" : "NA",
+					"B2_REF2" : "Torque reference",
+					"Bits" : 
+					[
+						{
+							"B2_Bits__CW1_S1" : "DIR 1",
+							"B2_Bits__FaultInverted" : "NOT FAULT",
+							"B2_Bits__K7" : "BRAKE CONTROL",
+							"B2_Bits__Ready" : "READY",
+							"B2_Bits__Spare_x0_5" : "NA",
+							"B2_Bits__Spare_x0_6" : "NA",
+							"B2_Bits__Spare_x0_7" : "NA",
+							"B2_Bits__Spare_x1_1" : "NA",
+							"B2_Bits__Spare_x1_2" : "NA",
+							"B2_Bits__Spare_x1_3" : "NA",
+							"B2_Bits__Spare_x1_4" : "NA",
+							"B2_Bits__Spare_x1_5" : "NA",
+							"B2_Bits__Spare_x1_6" : "NA",
+							"B2_Bits__Spare_x1_7" : "NA",
+							"B2_Bits__VA_DriveOK" : "Drive OK",
+							"B2_Bits__VA_RUN" : "RUN"
+						}
+					]
+				}
+			]
+		},
+		{
+			"B3" : 
+			[
+				{
+					"B3_PD1" : "Speed",
+					"B3_PD2" : "Current",
+					"B3_PD5" : "Unit Temp",
+					"B3_PD8" : "Fault codes",
+					"B3_PDn" : "NA",
+					"B3_REF2" : "Torque reference",
+					"Bits" : 
+					[
+						{
+							"B3_Bits__CW1_S1" : "DIR 1",
+							"B3_Bits__FaultInverted" : "NOT FAULT",
+							"B3_Bits__K7" : "BRAKE CONTROL",
+							"B3_Bits__Ready" : "READY",
+							"B3_Bits__Spare_x0_5" : "NA",
+							"B3_Bits__Spare_x0_6" : "NA",
+							"B3_Bits__Spare_x0_7" : "NA",
+							"B3_Bits__Spare_x1_1" : "NA",
+							"B3_Bits__Spare_x1_2" : "NA",
+							"B3_Bits__Spare_x1_3" : "NA",
+							"B3_Bits__Spare_x1_4" : "NA",
+							"B3_Bits__Spare_x1_5" : "NA",
+							"B3_Bits__Spare_x1_6" : "NA",
+							"B3_Bits__Spare_x1_7" : "NA",
+							"B3_Bits__VA_DriveOK" : "Drive OK",
+							"B3_Bits__VA_RUN" : "RUN"
+						}
+					]
+				}
+			]
+		},
+		{
+			"B4" : 
+			[
+				{
+					"B4_PD1" : "Speed",
+					"B4_PD2" : "Current",
+					"B4_PD5" : "Unit Temp",
+					"B4_PD8" : "Fault codes",
+					"B4_PDn" : "NA",
+					"B4_REF2" : "Torque reference",
+					"Bits" : 
+					[
+						{
+							"B4_Bits__CW1_S1" : "DIR 1",
+							"B4_Bits__FaultInverted" : "NOT FAULT",
+							"B4_Bits__K7" : "BRAKE CONTROL",
+							"B4_Bits__Ready" : "READY",
+							"B4_Bits__Spare_x0_5" : "NA",
+							"B4_Bits__Spare_x0_6" : "NA",
+							"B4_Bits__Spare_x0_7" : "NA",
+							"B4_Bits__Spare_x1_1" : "NA",
+							"B4_Bits__Spare_x1_2" : "NA",
+							"B4_Bits__Spare_x1_3" : "NA",
+							"B4_Bits__Spare_x1_4" : "NA",
+							"B4_Bits__Spare_x1_5" : "NA",
+							"B4_Bits__Spare_x1_6" : "NA",
+							"B4_Bits__Spare_x1_7" : "NA",
+							"B4_Bits__VA_DriveOK" : "Drive OK",
+							"B4_Bits__VA_RUN" : "RUN"
+						}
+					]
+				}
+			]
+		},
+		{
+			"W" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"W_Bits__CW1_AltControlMode" : "Alt control Mode",
+							"W_Bits__CW1_S1" : "DIR 1",
+							"W_Bits__CW1_S2" : "DIR 2",
+							"W_Bits__FaultInverted" : "NOT FAULT",
+							"W_Bits__K7" : "BRAKE CONTROL",
+							"W_Bits__Ready" : "READY",
+							"W_Bits__Spare_x0_7" : "NA",
+							"W_Bits__Spare_x1_3" : "NA",
+							"W_Bits__Spare_x1_4" : "NA",
+							"W_Bits__Spare_x1_5" : "NA",
+							"W_Bits__Spare_x1_6" : "NA",
+							"W_Bits__Spare_x1_7" : "NA",
+							"W_Bits__VAM_DIR1_Motor" : "MOTOR DIR1",
+							"W_Bits__VAM_DIR2_Motor" : "MOTOR DIR2",
+							"W_Bits__VA_DriveOK" : "Drive OK",
+							"W_Bits__VA_RUN" : "RUN"
+						}
+					],
+					"W_PD1" : "Speed",
+					"W_PD2" : "Current",
+					"W_PD5" : "Unit Temp",
+					"W_PD8" : "Fault codes",
+					"W_PDn" : "NA",
+					"W_REF2" : "Torque reference"
+				}
+			]
+		},
+		{
+			"O" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"O_Bits__CW_Synchronized" : "Synchronized control",
+							"O_Bits__FaultInverted" : "NOT FAULT",
+							"O_Bits__RUN" : "RUN",
+							"O_Bits__Ready" : "READY",
+							"O_Bits__Spare_x0_4" : "NA",
+							"O_Bits__Spare_x0_5" : "NA",
+							"O_Bits__Spare_x0_6" : "NA",
+							"O_Bits__Spare_x0_7" : "NA",
+							"O_Bits__Spare_x1_1" : "NA",
+							"O_Bits__Spare_x1_2" : "NA",
+							"O_Bits__Spare_x1_3" : "NA",
+							"O_Bits__Spare_x1_4" : "NA",
+							"O_Bits__Spare_x1_5" : "NA",
+							"O_Bits__Spare_x1_6" : "NA",
+							"O_Bits__Spare_x1_7" : "NA",
+							"O_Bits__Synchronized" : "Synchronized"
+						}
+					],
+					"O_PD1" : "DC-Link Voltage",
+					"O_PD2" : "Total Current",
+					"O_PD3" : "Active Current",
+					"O_PD5" : "Unit Temp",
+					"O_PD8" : "Fault codes"
+				}
+			]
+		},
+		{
+			"T" : 
+			[
+				{
+					"Bits" : 
+					[
+						{
+							"T_Bits__Fault_Inverted" : "NOT FAULT",
+							"T_Bits__RUN" : "RUN",
+							"T_Bits__Ready" : "READY",
+							"T_Bits__Spare_x0_3" : "NA",
+							"T_Bits__Spare_x0_4" : "NA",
+							"T_Bits__Spare_x0_5" : "NA",
+							"T_Bits__Spare_x0_6" : "NA",
+							"T_Bits__Spare_x0_7" : "NA",
+							"T_Bits__Spare_x1_0" : "NA",
+							"T_Bits__Spare_x1_1" : "NA",
+							"T_Bits__Spare_x1_2" : "NA",
+							"T_Bits__Spare_x1_3" : "NA",
+							"T_Bits__Spare_x1_4" : "NA",
+							"T_Bits__Spare_x1_5" : "NA",
+							"T_Bits__Spare_x1_6" : "NA",
+							"T_Bits__Spare_x1_7" : "NA"
+						}
+					],
+					"T_PD1" : "DC-Link Voltage",
+					"T_PD2" : "Total Current",
+					"T_PD3" : "Active Current",
+					"T_PD5" : "Unit Temp",
+					"T_PD8" : "Fault codes"
+				}
+			]
+		},
+		{
+			"Control" : 
+			[
+				{
+					"Control__IO_CON" : "Main contactor ON",
+					"Control__Local_Sel" : "Local control selected",
+					"Control__MO_CSEL" : "Cabin control place",
+					"Control__MO_ESTOP_OK" : "Estop OK",
+					"Control__MO_F1SEL" : "ROS control place",
+					"Control__MO_F2SEL" : "MROS control place",
+					"Control__MO_GSEL" : "Ground level control place",
+					"Control__MO_RSEL" : "Radio control place",
+					"Control__MO_SSEL" : "CCS control place",
+					"Control__MO_TSEL" : "Trolley control place",
+					"Control__Maintenance_mode" : "Maintenance_mode",
+					"Control__Remote_Sel" : "Remote control selected",
+					"Control__con_x07" : "NA",
+					"Control__con_x10" : "NA",
+					"Control__con_x11" : "NA",
+					"Control__con_x12" : "NA"
+				}
+			]
+		},
+		{
+			"Hoist" : 
+			[
+				{
+					"Hoist0__MAF_DIR1" : "Hoist joystick ROS",
+					"Hoist0__MAF_DIR2" : "Hoist joystick ROS",
+					"Hoist0__MAR_DIR1" : "Hoist joystick radio",
+					"Hoist0__MAR_DIR2" : "Hoist joystick radio",
+					"Hoist0__MAS_DIR1" : "Hoist drive request CCS",
+					"Hoist0__MAS_DIR2" : "Hoist drive request CCS",
+					"Hoist0__ho_x84_0" : "NA",
+					"Hoist0__ho_x84_1" : "NA",
+					"Hoist0__ho_x84_2" : "NA",
+					"Hoist0__ho_x84_3" : "NA",
+					"Hoist0__ho_x84_4" : "NA",
+					"Hoist0__ho_x84_5" : "NA",
+					"Hoist0__ho_x84_6" : "NA",
+					"Hoist0__ho_x84_7" : "NA",
+					"Hoist0__ho_x85_6" : "NA",
+					"Hoist0__ho_x85_7" : "NA",
+					"Hoist_A1_A2_POS_DIFF" : "Hoist positions Difference [m]",
+					"Hoist_A1_POS" : "Hoist 1 position in [m]",
+					"Hoist_A2_POS" : "Hoist 2 position in [m]",
+					"Hoist_A_LOAD_CHANGE" : "Load Changed counter",
+					"Hoist_CORNER_1_LOAD" : "Hoist 1 loadcell 1 load [t]",
+					"Hoist_CORNER_2_LOAD" : "Hoist 1 loadcell 2 load [t]",
+					"Hoist_CORNER_3_LOAD" : "Hoist 2 loadcell 1 load [t]",
+					"Hoist_CORNER_4_LOAD" : "Hoist 2 loadcell 2 load [t]",
+					"Hoist_ESP" : "Hoist Estimated Position [m]",
+					"Hoist_LOAD_VAR_LOAD_FL" : "Total corner load [t]",
+					"Hoist_LOAD_VAR_LOAD_FR" : "Total corner load [t]",
+					"Hoist_LOAD_VAR_LOAD_RL" : "Total corner load [t]",
+					"Hoist_LOAD_VAR_LOAD_RR" : "Total corner load [t]",
+					"Hoist_MA1_LOAD" : "A1 total load value [t]",
+					"Hoist_MA2_LOAD" : "A2 total load value [t]",
+					"Hoist_MA_CLOAD" : "Total container load value [t]",
+					"Hoist_MA_LOAD" : "Total load value [t]",
+					"Hoist_SLOWDOWN_SPD" : "Slowdown speed  [%]",
+					"Hoist_SPEED_REQUEST" : "Speed Request [%]",
+					"Hoist_SYNCHRO_POSITION" : "Position error to Synchro [m]",
+					"Hoist_TRIM_POSITION" : "Trim Position [m]",
+					"Hoist__MA1_DIR1_DIS" : "NA",
+					"Hoist__MA1_DIR1_STOP" : "NA",
+					"Hoist__MA1_DIR2_DIS" : "NA",
+					"Hoist__MA1_DIR2_STOP" : "NA",
+					"Hoist__MA2_DIR1_DIS" : "NA",
+					"Hoist__MA2_DIR1_STOP" : "NA",
+					"Hoist__MA2_DIR2_DIS" : "NA",
+					"Hoist__MA2_DIR2_STOP" : "NA",
+					"Hoist__MA_POS_OK" : "NA",
+					"Hoist__MA_SR" : "NA",
+					"Hoist__MA_Someload" : "NA",
+					"Hoist__Sync_Error" : "NA",
+					"Hoist__Sync_stop" : "NA",
+					"Hoist__ho_x83_5" : "NA",
+					"Hoist__ho_x83_6" : "NA",
+					"Hoist__ho_x83_7" : "NA"
+				}
+			]
+		},
+		{
+			"Trolley" : 
+			[
+				{
+					"Trolley_CCS_POS" : "Trolley_Position CCS [m]",
+					"Trolley_D2V_POS" : "Trolley Position Drive [m]",
+					"Trolley_ESP" : "Trolley Estimated Stopping Position [m]",
+					"Trolley_POS" : "Trolley Position [m]",
+					"Trolley_Slowdown_Speed" : "Trolley Slowdown speed [%]",
+					"Trolley_Speed_Request" : "Trolley Speed Request [%]",
+					"Trolley__DIR1_DIS" : "NA",
+					"Trolley__DIR1_STOP" : "NA",
+					"Trolley__DIR2_DIS" : "NA",
+					"Trolley__DIR2_STOP" : "NA",
+					"Trolley__MEF_DIR1" : "Trolley drive request ROS",
+					"Trolley__MEF_DIR2" : "Trolley drive request ROS",
+					"Trolley__MER_DIR1" : "Trolley drive request radio",
+					"Trolley__MER_DIR2" : "Trolley drive request radio",
+					"Trolley__MES_DIR1" : "Trolley drive request CCS",
+					"Trolley__MES_DIR2" : "Trolley drive request CCS",
+					"Trolley__POS_OK" : "NA",
+					"Trolley__Tr_x24_5" : "NA",
+					"Trolley__Tr_x24_6" : "NA",
+					"Trolley__Tr_x24_7" : "NA",
+					"Trolley__Tr_x25_6" : "NA",
+					"Trolley__Tr_x25_7" : "NA"
+				}
+			]
+		},
+		{
+			"Gantry" : 
+			[
+				{
+					"Gantry1__Ga_x22_7" : "NA",
+					"Gantry1__Ga_x23_0" : "NA",
+					"Gantry1__Ga_x23_1" : "NA",
+					"Gantry1__Ga_x23_2" : "NA",
+					"Gantry1__Ga_x23_3" : "NA",
+					"Gantry1__Ga_x23_4" : "NA",
+					"Gantry1__Ga_x23_5" : "NA",
+					"Gantry1__Ga_x23_6" : "NA",
+					"Gantry1__Ga_x23_7" : "NA",
+					"Gantry1__MR2_ACC" : "NA",
+					"Gantry1__MR2_DEC" : "NA",
+					"Gantry1__MR_ACC" : "NA",
+					"Gantry1__MR_DEC" : "NA",
+					"Gantry1__MR_ENC_ACC" : "NA",
+					"Gantry1__MR_ENC_DEC" : "NA",
+					"Gantry1__MR_MINSPON" : "NA",
+					"Gantry_CRANE_TO_CRANE_DISTANCE" : "Crane to Crane Distance  [m]",
+					"Gantry_ESP" : "Gantry Estimated Stopping Position [m]",
+					"Gantry_POS" : "Gantry Position [m]",
+					"Gantry_Slowdown_Speed" : "Gantry Slowdown speed [%]",
+					"Gantry_Speed_Request" : "Ganty Speed Request [%]",
+					"Gantry__DIR1_DIS" : "NA",
+					"Gantry__DIR1_STOP" : "NA",
+					"Gantry__DIR2_DIS" : "NA",
+					"Gantry__DIR2_STOP" : "NA",
+					"Gantry__Ga_x20_5" : "NA",
+					"Gantry__Ga_x20_6" : "NA",
+					"Gantry__Ga_x20_7" : "NA",
+					"Gantry__Ga_x21_6" : "NA",
+					"Gantry__Ga_x21_7" : "NA",
+					"Gantry__MRF_DIR1" : "Gantry drive request ROS",
+					"Gantry__MRF_DIR2" : "Gantry drive request ROS",
+					"Gantry__MRR_DIR1" : "Gantry drive request radio",
+					"Gantry__MRR_DIR2" : "Gantry drive request radio",
+					"Gantry__MRS_DIR1" : "Gantry drive request CCS",
+					"Gantry__MRS_DIR2" : "Gantry drive request CCS",
+					"Gantry__MR_POS_OK" : "NA"
+				}
+			]
+		},
+		{
+			"ACM" : 
+			[
+				{
+					"ACM_B1_Force_OUT" : "ACM 1 Force_output [kN]",
+					"ACM_B1_LOAD" : "ACM 1 Load [t]",
+					"ACM_B1_Sway_Speed" : "ACM 1 Sway speed",
+					"ACM_B2_Force_OUT" : "ACM 2 Force_output [kN]",
+					"ACM_B2_LOAD" : "ACM 2 Load [t]",
+					"ACM_B2_Sway_Speed" : "ACM 2 Sway speed",
+					"ACM_B3_Force_OUT" : "ACM 3 Force_output [kN]",
+					"ACM_B3_LOAD" : "ACM 3 Load [t]",
+					"ACM_B3_Sway_Speed" : "ACM 3 Sway speed",
+					"ACM_B4_Force_OUT" : "ACM 4 Force_output [kN]",
+					"ACM_B4_LOAD" : "ACM 4 Load [t]",
+					"ACM_B4_Sway_Speed" : "ACM 4 Sway speed",
+					"ACM_KN_Factor" : "KN FActor",
+					"ACM_MM_E_REF" : "Micromove E reference [%]",
+					"ACM_MM_R_REF" : "Micromove R reference [%]",
+					"ACM_Skew_Ref" : "Skew reference [%]"
+				}
+			]
+		},
+		{
+			"Spreader" : 
+			[
+				{
+					"Spreader__Landed" : "Landed",
+					"Spreader__Spr_x06" : "NA",
+					"Spreader__Spr_x07" : "NA",
+					"Spreader__Spr_x08" : "NA",
+					"Spreader__Spr_x09" : "NA",
+					"Spreader__Spr_x10" : "NA",
+					"Spreader__Spr_x11" : "NA",
+					"Spreader__Spr_x12" : "NA",
+					"Spreader__Spr_x13" : "NA",
+					"Spreader__Spr_x14" : "NA",
+					"Spreader__Spr_x15" : "NA",
+					"Spreader__Telescope_locked" : "Telescope locks locked",
+					"Spreader__Telescope_unlocked" : "Telescope locks unlocked",
+					"Spreader__Twin_UP" : "Twin UP",
+					"Spreader__Twistlocks_Locked" : "Twistlock Locked",
+					"Spreader__Twistlocks_Unlocked" : "Twistlock Unlocked"
+				}
+			]
+		},
+		{
+			"Bogie" : 
+			[
+				{
+					"Bogie_Pos1" : "Bogie 1 Position [dec]",
+					"Bogie_Pos2" : "Bogie 2 Position [dec]",
+					"Bogie_Pos3" : "Bogie 3 Position [dec]",
+					"Bogie_Pos4" : "Bogie 4 Position [dec]",
+					"Bogie_Pos5" : "Bogie 5 Position [dec]",
+					"Bogie_Pos6" : "Bogie 6 Position [dec]",
+					"Bogie_Pos7" : "Bogie 7 Position [dec]",
+					"Bogie_Pos8" : "Bogie 8 Position [dec]"
+				}
+			]
+		},
+		{
+			"Safeway" : 
+			[
+				{
+					"Safeway_A1_SPEED" : "Safeway speed [m",
+					"Safeway_A1_TARGET_SPEED" : "Safeway Target Speed [mm",
+					"Safeway_A2_SPEED" : "Safeway speed [m",
+					"Safeway_A2_TARGET_SPEED" : "Safeway Target Speed [mm",
+					"Safeway__A1_Overspeed1_Ack" : "NA",
+					"Safeway__A1_Overspeed1_Alarm" : "NA",
+					"Safeway__A1_Overspeed2_Ack" : "NA",
+					"Safeway__A1_Overspeed2_Alarm" : "NA",
+					"Safeway__A1_Safeway_Error" : "NA",
+					"Safeway__A1_Speed_Window_Ack" : "NA",
+					"Safeway__A1_Speed_Window_Alarm" : "NA",
+					"Safeway__A1_System_Alarm_Ack" : "NA",
+					"Safeway__A2_Overspeed1_Ack" : "NA",
+					"Safeway__A2_Overspeed1_Alarm" : "NA",
+					"Safeway__A2_Overspeed2_Ack" : "NA",
+					"Safeway__A2_Overspeed2_Alarm" : "NA",
+					"Safeway__A2_Safeway_Error" : "NA",
+					"Safeway__A2_Speed_Window_Ack" : "NA",
+					"Safeway__A2_Speed_Window_Alarm" : "NA",
+					"Safeway__A2_System_Alarm_Ack" : "NA"
+				}
+			]
+		},
+		{
+			"Cable_Reel" : 
+			[
+				{
+					"Cable_Reel_MAX_TRQ" : "Selected MAX Torque [%]",
+					"Cable_Reel_MIN_TRQ" : "Selected MIN Torque [%]",
+					"Cable_Reel_Transducer_Current" : "Transducer Current Signal [mA]"
+				}
+			]
+		},
+		{
+			"CCS" : 
+			[
+				{
+					"CCS_Angle_To_Track" : "Angle to Track [deg",
+					"CCS_CCS_Seq_State" : "NA",
+					"CCS_Distance_To_Track" : "Distance to Track [mm]",
+					"CCS_Gantry_Target" : "NA",
+					"CCS_List_Angle" : "NA",
+					"CCS_Spdr_diff_to_Ideal_SK" : "Spreader difference to Ideal skew [mDec]",
+					"CCS_Spdr_diff_to_Ideal_X" : "Spreader difference to Ideal X [mm]",
+					"CCS_Spdr_diff_to_Ideal_Y" : "Spreader difference to Ideal Y [mm]",
+					"CCS_Trim_Angle" : "NA",
+					"CCS_Trolley_target" : "NA",
+					"CCS__Autosteering_ok" : "Autosteering OK",
+					"CCS__RTG_ON_RAIL" : "RTG ON Rail",
+					"CCS_spdr_abspos_skew" : "Spreader position from Sirrah Skew [mdec]",
+					"CCS_spdr_abspos_x" : "Spreader position from Sirrah Trolley Direction [mm]",
+					"CCS_spdr_abspos_y" : "Spreader position from Sirrah Gantry Direction [mm]",
+					"CCS_spdr_diff_to_Cont_SKEW" : "Distance to underlying container [mdec]",
+					"CCS_spdr_diff_to_Cont_X" : "Distance to underlying container [mm]",
+					"CCS_spdr_diff_to_Cont_Y" : "Distance to underlying container [mm]",
+					"CCS_spdr_diff_to_target_SKEW" : "Distance to target position  [mdec]",
+					"CCS_spdr_diff_to_target_X" : "Distance to target position  [mm]",
+					"CCS_spdr_diff_to_target_Y" : "Distance to target position [mm]",
+					"CCS_spdr_diff_to_target_Z" : "Distance to target position  [mm]",
+					"SPARE_0_10" : "Spare",
+					"SPARE_0_11" : "Spare",
+					"SPARE_0_12" : "Spare",
+					"SPARE_0_13" : "Spare",
+					"SPARE_0_14" : "Spare",
+					"SPARE_0_15" : "Spare",
+					"SPARE_0_2" : "Spare",
+					"SPARE_0_3" : "Spare",
+					"SPARE_0_4" : "Spare",
+					"SPARE_0_5" : "Spare",
+					"SPARE_0_6" : "Spare",
+					"SPARE_0_7" : "Spare",
+					"SPARE_0_8" : "Spare",
+					"SPARE_0_9" : "Spare"
+				}
+			]
+		},
+		{
+			"MISC" : 
+			[
+				{
+					"MISC_HUMID_EROOM" : "E-room Humidity [%]",
+					"MISC_HUMID_TFR" : "Transformer room Humidity [%]",
+					"MISC_HUMID_TR_CUBICLE" : "Trolley cubicle Humidity [%]",
+					"MISC_TEMP_EROOM" : "Eroom temperature [C]",
+					"MISC_TEMP_TFR" : "Transformer room temperature [C]",
+					"MISC_TEMP_TR_CUBICLE" : "Trolley cubicle temperature [C]",
+					"MISC_Wind_Speed" : "Wind Speed [m"
+				}
+			]
+		},
+		{
+			"Profibus" : 
+			[
+				{
+					"Profibus2__Address_31" : "Gantry R1 Encoder",
+					"Profibus2__Address_32" : "Gantry R2 Encoder",
+					"Profibus2__Address_33" : "Gantry R3 Encoder",
+					"Profibus2__Address_34" : "Gantry R4 Encoder",
+					"Profibus2__Address_35" : "Gantry R5 Encoder",
+					"Profibus2__Address_36" : "Gantry R6 Encoder",
+					"Profibus2__Address_37" : "Gantry R7 Encoder",
+					"Profibus2__Address_38" : "Gantry R8 Encoder",
+					"Profibus2__Address_40" : "NOT   USED",
+					"Profibus2__Address_51" : "ACM 1",
+					"Profibus2__Address_52" : "ACM 2",
+					"Profibus2__Address_53" : "ACM 3",
+					"Profibus2__Address_54" : "ACM 4",
+					"Profibus2__Address_55" : "Hoist 1",
+					"Profibus2__Address_56" : "Hoist 2",
+					"Profibus2__Address_57" : "Trolley",
+					"Profibus3__Address_60" : "Access side I",
+					"Profibus3__Address_61" : "Bogie Box 1",
+					"Profibus3__Address_62" : "Bogie Box 2",
+					"Profibus3__Address_63" : "Bogie Box 3",
+					"Profibus3__Address_64" : "Bogie Box 4",
+					"Profibus3__Address_70" : "Spreader",
+					"Profibus3__Address_x04" : "NOT   USED",
+					"Profibus3__Address_x05" : "NOT   USED",
+					"Profibus3__Address_x06" : "NOT   USED",
+					"Profibus3__Address_x07" : "NOT   USED",
+					"Profibus3__Address_x08" : "NOT   USED",
+					"Profibus3__Address_x09" : "NOT   USED",
+					"Profibus3__Address_x10" : "NOT   USED",
+					"Profibus3__Address_x11" : "NOT   USED",
+					"Profibus3__Address_x12" : "NOT   USED",
+					"Profibus3__Address_x13" : "NOT   USED",
+					"Profibus__Address_10" : "TrHouse I",
+					"Profibus__Address_11" : "Gantry R12 Drive",
+					"Profibus__Address_12" : "Gantry R34 Drive",
+					"Profibus__Address_13" : "Gantry R56 Drive",
+					"Profibus__Address_14" : "Gantry R78 Drive",
+					"Profibus__Address_15" : "Power meter",
+					"Profibus__Address_16" : "Radio",
+					"Profibus__Address_20" : "Trolley I",
+					"Profibus__Address_21" : "Safeway 1",
+					"Profibus__Address_22" : "Safeway 2",
+					"Profibus__Address_6" : "Cable Reel",
+					"Profibus__Address_7" : "Dynareq",
+					"Profibus__Address_9" : "Dynacon",
+					"Profibus__Address_x01" : "NOT   USED",
+					"Profibus__Address_x02" : "NOT   USED",
+					"Profibus__Address_x03" : "NOT   USED"
+				}
+			]
+		},
+		{
+			"Spare_Real" : "NA"
+		},
+		{
+			"Spare_Int" : "NA"
+		},
+		{
+			"Spare_Bit" : "NA"
+		},
+		{
+			"Spare_byte" : "NA"
+		},
+		{
+			"PLC_cycle_time" : "PLC_cycle time.. Last line in KcLogger"
+		}
+	],
+	"alarm" : 
+	[
+		{
+			"1" : "Packed Bool Int1"
+		},
+		{
+			"2" : "Packed Bool Int1"
+		},
+		{
+			"3" : "Packed Bool Int1"
+		},
+		{
+			"4" : "Packed Bool Int1"
+		},
+		{
+			"5" : "Packed Bool Int1"
+		},
+		{
+			"6" : "Packed Bool Int1"
+		},
+		{
+			"7" : "Packed Bool Int1"
+		},
+		{
+			"8" : "Packed Bool Int1"
+		},
+		{
+			"9" : "Packed Bool Int1"
+		},
+		{
+			"10" : "Packed Bool Int1"
+		},
+		{
+			"11" : "Packed Bool Int1"
+		},
+		{
+			"12" : "Packed Bool Int1"
+		},
+		{
+			"13" : "Packed Bool Int1"
+		},
+		{
+			"14" : "Packed Bool Int1"
+		},
+		{
+			"15" : "Packed Bool Int1"
+		},
+		{
+			"16" : "Packed Bool Int1"
+		},
+		{
+			"17" : "Packed Bool Int2"
+		},
+		{
+			"18" : "Packed Bool Int2"
+		},
+		{
+			"19" : "Packed Bool Int2"
+		},
+		{
+			"20" : "Packed Bool Int2"
+		},
+		{
+			"21" : "Packed Bool Int2"
+		},
+		{
+			"22" : "Packed Bool Int2"
+		},
+		{
+			"23" : "Packed Bool Int2"
+		},
+		{
+			"24" : "Packed Bool Int2"
+		},
+		{
+			"25" : "Packed Bool Int2"
+		},
+		{
+			"26" : "Packed Bool Int2"
+		},
+		{
+			"27" : "Packed Bool Int2"
+		},
+		{
+			"28" : "Packed Bool Int2"
+		},
+		{
+			"29" : "Packed Bool Int2"
+		},
+		{
+			"30" : "Packed Bool Int2"
+		},
+		{
+			"31" : "Packed Bool Int2"
+		},
+		{
+			"32" : "Packed Bool Int2"
+		},
+		{
+			"33" : "Packed Bool Int3"
+		},
+		{
+			"34" : "Packed Bool Int3"
+		},
+		{
+			"35" : "Packed Bool Int3"
+		},
+		{
+			"36" : "Packed Bool Int3"
+		},
+		{
+			"37" : "Packed Bool Int3"
+		},
+		{
+			"38" : "Packed Bool Int3"
+		},
+		{
+			"39" : "Packed Bool Int3"
+		},
+		{
+			"40" : "Packed Bool Int3"
+		},
+		{
+			"41" : "Packed Bool Int3"
+		},
+		{
+			"42" : "Packed Bool Int3"
+		},
+		{
+			"43" : "Packed Bool Int3"
+		},
+		{
+			"44" : "Packed Bool Int3"
+		},
+		{
+			"45" : "Packed Bool Int3"
+		},
+		{
+			"46" : "Packed Bool Int3"
+		},
+		{
+			"47" : "Packed Bool Int3"
+		},
+		{
+			"48" : "Packed Bool Int3"
+		},
+		{
+			"49" : "Packed Bool Int4"
+		},
+		{
+			"50" : "Packed Bool Int4"
+		},
+		{
+			"51" : "Packed Bool Int4"
+		},
+		{
+			"52" : "Packed Bool Int4"
+		},
+		{
+			"53" : "Packed Bool Int4"
+		},
+		{
+			"54" : "Packed Bool Int4"
+		},
+		{
+			"55" : "Packed Bool Int4"
+		},
+		{
+			"56" : "Packed Bool Int4"
+		},
+		{
+			"57" : "Packed Bool Int4"
+		},
+		{
+			"58" : "Packed Bool Int4"
+		},
+		{
+			"59" : "Packed Bool Int4"
+		},
+		{
+			"60" : "Packed Bool Int4"
+		},
+		{
+			"61" : "Packed Bool Int4"
+		},
+		{
+			"62" : "Packed Bool Int4"
+		},
+		{
+			"63" : "Packed Bool Int4"
+		},
+		{
+			"64" : "Packed Bool Int4"
+		},
+		{
+			"65" : "Packed Bool Int5"
+		},
+		{
+			"66" : "Packed Bool Int5"
+		},
+		{
+			"67" : "Packed Bool Int5"
+		},
+		{
+			"68" : "Packed Bool Int5"
+		},
+		{
+			"69" : "Packed Bool Int5"
+		},
+		{
+			"70" : "Packed Bool Int5"
+		},
+		{
+			"71" : "Packed Bool Int5"
+		},
+		{
+			"72" : "Packed Bool Int5"
+		},
+		{
+			"73" : "Packed Bool Int5"
+		},
+		{
+			"74" : "Packed Bool Int5"
+		},
+		{
+			"75" : "Packed Bool Int5"
+		},
+		{
+			"76" : "Packed Bool Int5"
+		},
+		{
+			"77" : "Packed Bool Int5"
+		},
+		{
+			"78" : "Packed Bool Int5"
+		},
+		{
+			"79" : "Packed Bool Int5"
+		},
+		{
+			"80" : "Packed Bool Int5"
+		},
+		{
+			"81" : "Packed Bool Int6"
+		},
+		{
+			"82" : "Packed Bool Int6"
+		},
+		{
+			"83" : "Packed Bool Int6"
+		},
+		{
+			"84" : "Packed Bool Int6"
+		},
+		{
+			"85" : "Packed Bool Int6"
+		},
+		{
+			"86" : "Packed Bool Int6"
+		},
+		{
+			"87" : "Packed Bool Int6"
+		},
+		{
+			"88" : "Packed Bool Int6"
+		},
+		{
+			"89" : "Packed Bool Int6"
+		},
+		{
+			"90" : "Packed Bool Int6"
+		},
+		{
+			"91" : "Packed Bool Int6"
+		},
+		{
+			"92" : "Packed Bool Int6"
+		},
+		{
+			"93" : "Packed Bool Int6"
+		},
+		{
+			"94" : "Packed Bool Int6"
+		},
+		{
+			"95" : "Packed Bool Int6"
+		},
+		{
+			"96" : "Packed Bool Int6"
+		},
+		{
+			"97" : "Packed Bool Int7"
+		},
+		{
+			"98" : "Packed Bool Int7"
+		},
+		{
+			"99" : "Packed Bool Int7"
+		},
+		{
+			"100" : "Packed Bool Int7"
+		},
+		{
+			"101" : "Packed Bool Int7"
+		},
+		{
+			"102" : "Packed Bool Int7"
+		},
+		{
+			"103" : "Packed Bool Int7"
+		},
+		{
+			"104" : "Packed Bool Int7"
+		},
+		{
+			"105" : "Packed Bool Int7"
+		},
+		{
+			"106" : "Packed Bool Int7"
+		},
+		{
+			"107" : "Packed Bool Int7"
+		},
+		{
+			"108" : "Packed Bool Int7"
+		},
+		{
+			"109" : "Packed Bool Int7"
+		},
+		{
+			"110" : "Packed Bool Int7"
+		},
+		{
+			"111" : "Packed Bool Int7"
+		},
+		{
+			"112" : "Packed Bool Int7"
+		},
+		{
+			"113" : "Packed Bool Int8"
+		},
+		{
+			"114" : "Packed Bool Int8"
+		},
+		{
+			"115" : "Packed Bool Int8"
+		},
+		{
+			"116" : "Packed Bool Int8"
+		},
+		{
+			"117" : "Packed Bool Int8"
+		},
+		{
+			"118" : "Packed Bool Int8"
+		},
+		{
+			"119" : "Packed Bool Int8"
+		},
+		{
+			"120" : "Packed Bool Int8"
+		},
+		{
+			"121" : "Packed Bool Int8"
+		},
+		{
+			"122" : "Packed Bool Int8"
+		},
+		{
+			"123" : "Packed Bool Int8"
+		},
+		{
+			"124" : "Packed Bool Int8"
+		},
+		{
+			"125" : "Packed Bool Int8"
+		},
+		{
+			"126" : "Packed Bool Int8"
+		},
+		{
+			"127" : "Packed Bool Int8"
+		},
+		{
+			"128" : "Packed Bool Int8"
+		},
+		{
+			"129" : "Packed Bool Int9"
+		},
+		{
+			"130" : "Packed Bool Int9"
+		},
+		{
+			"131" : "Packed Bool Int9"
+		},
+		{
+			"132" : "Packed Bool Int9"
+		},
+		{
+			"133" : "Packed Bool Int9"
+		},
+		{
+			"134" : "Packed Bool Int9"
+		},
+		{
+			"135" : "Packed Bool Int9"
+		},
+		{
+			"136" : "Packed Bool Int9"
+		},
+		{
+			"137" : "Packed Bool Int9"
+		},
+		{
+			"138" : "Packed Bool Int9"
+		},
+		{
+			"139" : "Packed Bool Int9"
+		},
+		{
+			"140" : "Packed Bool Int9"
+		},
+		{
+			"141" : "Packed Bool Int9"
+		},
+		{
+			"142" : "Packed Bool Int9"
+		},
+		{
+			"143" : "Packed Bool Int9"
+		},
+		{
+			"144" : "Packed Bool Int9"
+		},
+		{
+			"145" : "Packed Bool Int10"
+		},
+		{
+			"146" : "Packed Bool Int10"
+		},
+		{
+			"147" : "Packed Bool Int10"
+		},
+		{
+			"148" : "Packed Bool Int10"
+		},
+		{
+			"149" : "Packed Bool Int10"
+		},
+		{
+			"150" : "Packed Bool Int10"
+		},
+		{
+			"151" : "Packed Bool Int10"
+		},
+		{
+			"152" : "Packed Bool Int10"
+		},
+		{
+			"153" : "Packed Bool Int10"
+		},
+		{
+			"154" : "Packed Bool Int10"
+		},
+		{
+			"155" : "Packed Bool Int10"
+		},
+		{
+			"156" : "Packed Bool Int10"
+		},
+		{
+			"157" : "Packed Bool Int10"
+		},
+		{
+			"158" : "Packed Bool Int10"
+		},
+		{
+			"159" : "Packed Bool Int10"
+		},
+		{
+			"160" : "Packed Bool Int10"
+		},
+		{
+			"161" : "Packed Bool Int11"
+		},
+		{
+			"162" : "Packed Bool Int11"
+		},
+		{
+			"163" : "Packed Bool Int11"
+		},
+		{
+			"164" : "Packed Bool Int11"
+		},
+		{
+			"165" : "Packed Bool Int11"
+		},
+		{
+			"166" : "Packed Bool Int11"
+		},
+		{
+			"167" : "Packed Bool Int11"
+		},
+		{
+			"168" : "Packed Bool Int11"
+		},
+		{
+			"169" : "Packed Bool Int11"
+		},
+		{
+			"170" : "Packed Bool Int11"
+		},
+		{
+			"171" : "Packed Bool Int11"
+		},
+		{
+			"172" : "Packed Bool Int11"
+		},
+		{
+			"173" : "Packed Bool Int11"
+		},
+		{
+			"174" : "Packed Bool Int11"
+		},
+		{
+			"175" : "Packed Bool Int11"
+		},
+		{
+			"176" : "Packed Bool Int11"
+		},
+		{
+			"177" : "Packed Bool Int12"
+		},
+		{
+			"178" : "Packed Bool Int12"
+		},
+		{
+			"179" : "Packed Bool Int12"
+		},
+		{
+			"180" : "Packed Bool Int12"
+		},
+		{
+			"181" : "Packed Bool Int12"
+		},
+		{
+			"182" : "Packed Bool Int12"
+		},
+		{
+			"183" : "Packed Bool Int12"
+		},
+		{
+			"184" : "Packed Bool Int12"
+		},
+		{
+			"185" : "Packed Bool Int12"
+		},
+		{
+			"186" : "Packed Bool Int12"
+		},
+		{
+			"187" : "Packed Bool Int12"
+		},
+		{
+			"188" : "Packed Bool Int12"
+		},
+		{
+			"189" : "Packed Bool Int12"
+		},
+		{
+			"190" : "Packed Bool Int12"
+		},
+		{
+			"191" : "Packed Bool Int12"
+		},
+		{
+			"192" : "Packed Bool Int12"
+		},
+		{
+			"193" : "Packed Bool Int13"
+		},
+		{
+			"194" : "Packed Bool Int13"
+		},
+		{
+			"195" : "Packed Bool Int13"
+		},
+		{
+			"196" : "Packed Bool Int13"
+		},
+		{
+			"197" : "Packed Bool Int13"
+		},
+		{
+			"198" : "Packed Bool Int13"
+		},
+		{
+			"199" : "Packed Bool Int13"
+		},
+		{
+			"200" : "Packed Bool Int13"
+		},
+		{
+			"201" : "Packed Bool Int13"
+		},
+		{
+			"202" : "Packed Bool Int13"
+		},
+		{
+			"203" : "Packed Bool Int13"
+		},
+		{
+			"204" : "Packed Bool Int13"
+		},
+		{
+			"205" : "Packed Bool Int13"
+		},
+		{
+			"206" : "Packed Bool Int13"
+		},
+		{
+			"207" : "Packed Bool Int13"
+		},
+		{
+			"208" : "Packed Bool Int13"
+		},
+		{
+			"209" : "Packed Bool Int14"
+		},
+		{
+			"210" : "Packed Bool Int14"
+		},
+		{
+			"211" : "Packed Bool Int14"
+		},
+		{
+			"212" : "Packed Bool Int14"
+		},
+		{
+			"213" : "Packed Bool Int14"
+		},
+		{
+			"214" : "Packed Bool Int14"
+		},
+		{
+			"215" : "Packed Bool Int14"
+		},
+		{
+			"216" : "Packed Bool Int14"
+		},
+		{
+			"217" : "Packed Bool Int14"
+		},
+		{
+			"218" : "Packed Bool Int14"
+		},
+		{
+			"219" : "Packed Bool Int14"
+		},
+		{
+			"220" : "Packed Bool Int14"
+		},
+		{
+			"221" : "Packed Bool Int14"
+		},
+		{
+			"222" : "Packed Bool Int14"
+		},
+		{
+			"223" : "Packed Bool Int14"
+		},
+		{
+			"224" : "Packed Bool Int14"
+		},
+		{
+			"225" : "Packed Bool Int15"
+		},
+		{
+			"226" : "Packed Bool Int15"
+		},
+		{
+			"227" : "Packed Bool Int15"
+		},
+		{
+			"228" : "Packed Bool Int15"
+		},
+		{
+			"229" : "Packed Bool Int15"
+		},
+		{
+			"230" : "Packed Bool Int15"
+		},
+		{
+			"231" : "Packed Bool Int15"
+		},
+		{
+			"232" : "Packed Bool Int15"
+		},
+		{
+			"233" : "Packed Bool Int15"
+		},
+		{
+			"234" : "Packed Bool Int15"
+		},
+		{
+			"235" : "Packed Bool Int15"
+		},
+		{
+			"236" : "Packed Bool Int15"
+		},
+		{
+			"237" : "Packed Bool Int15"
+		},
+		{
+			"238" : "Packed Bool Int15"
+		},
+		{
+			"239" : "Packed Bool Int15"
+		},
+		{
+			"240" : "Packed Bool Int15"
+		},
+		{
+			"241" : "Packed Bool Int16"
+		},
+		{
+			"242" : "Packed Bool Int16"
+		},
+		{
+			"243" : "Packed Bool Int16"
+		},
+		{
+			"244" : "Packed Bool Int16"
+		},
+		{
+			"245" : "Packed Bool Int16"
+		},
+		{
+			"246" : "Packed Bool Int16"
+		},
+		{
+			"247" : "Packed Bool Int16"
+		},
+		{
+			"248" : "Packed Bool Int16"
+		},
+		{
+			"249" : "Packed Bool Int16"
+		},
+		{
+			"250" : "Packed Bool Int16"
+		},
+		{
+			"251" : "Packed Bool Int16"
+		},
+		{
+			"252" : "Packed Bool Int16"
+		},
+		{
+			"253" : "Packed Bool Int16"
+		},
+		{
+			"254" : "Packed Bool Int16"
+		},
+		{
+			"255" : "Packed Bool Int16"
+		},
+		{
+			"256" : "Packed Bool Int16"
+		},
+		{
+			"257" : "Packed Bool Int17"
+		},
+		{
+			"258" : "Packed Bool Int17"
+		},
+		{
+			"259" : "Packed Bool Int17"
+		},
+		{
+			"260" : "Packed Bool Int17"
+		},
+		{
+			"261" : "Packed Bool Int17"
+		},
+		{
+			"262" : "Packed Bool Int17"
+		},
+		{
+			"263" : "Packed Bool Int17"
+		},
+		{
+			"264" : "Packed Bool Int17"
+		},
+		{
+			"265" : "Packed Bool Int17"
+		},
+		{
+			"266" : "Packed Bool Int17"
+		},
+		{
+			"267" : "Packed Bool Int17"
+		},
+		{
+			"268" : "Packed Bool Int17"
+		},
+		{
+			"269" : "Packed Bool Int17"
+		},
+		{
+			"270" : "Packed Bool Int17"
+		},
+		{
+			"271" : "Packed Bool Int17"
+		},
+		{
+			"272" : "Packed Bool Int17"
+		},
+		{
+			"273" : "Packed Bool Int18"
+		},
+		{
+			"274" : "Packed Bool Int18"
+		},
+		{
+			"275" : "Packed Bool Int18"
+		},
+		{
+			"276" : "Packed Bool Int18"
+		},
+		{
+			"277" : "Packed Bool Int18"
+		},
+		{
+			"278" : "Packed Bool Int18"
+		},
+		{
+			"279" : "Packed Bool Int18"
+		},
+		{
+			"280" : "Packed Bool Int18"
+		},
+		{
+			"281" : "Packed Bool Int18"
+		},
+		{
+			"282" : "Packed Bool Int18"
+		},
+		{
+			"283" : "Packed Bool Int18"
+		},
+		{
+			"284" : "Packed Bool Int18"
+		},
+		{
+			"285" : "Packed Bool Int18"
+		},
+		{
+			"286" : "Packed Bool Int18"
+		},
+		{
+			"287" : "Packed Bool Int18"
+		},
+		{
+			"288" : "Packed Bool Int18"
+		},
+		{
+			"289" : "Packed Bool Int19"
+		},
+		{
+			"290" : "Packed Bool Int19"
+		},
+		{
+			"291" : "Packed Bool Int19"
+		},
+		{
+			"292" : "Packed Bool Int19"
+		},
+		{
+			"293" : "Packed Bool Int19"
+		},
+		{
+			"294" : "Packed Bool Int19"
+		},
+		{
+			"295" : "Packed Bool Int19"
+		},
+		{
+			"296" : "Packed Bool Int19"
+		},
+		{
+			"297" : "Packed Bool Int19"
+		},
+		{
+			"298" : "Packed Bool Int19"
+		},
+		{
+			"299" : "Packed Bool Int19"
+		},
+		{
+			"300" : "Packed Bool Int19"
+		},
+		{
+			"301" : "Packed Bool Int19"
+		},
+		{
+			"302" : "Packed Bool Int19"
+		},
+		{
+			"303" : "Packed Bool Int19"
+		},
+		{
+			"304" : "Packed Bool Int19"
+		},
+		{
+			"305" : "Packed Bool Int20"
+		},
+		{
+			"306" : "Packed Bool Int20"
+		},
+		{
+			"307" : "Packed Bool Int20"
+		},
+		{
+			"308" : "Packed Bool Int20"
+		},
+		{
+			"309" : "Packed Bool Int20"
+		},
+		{
+			"310" : "Packed Bool Int20"
+		},
+		{
+			"311" : "Packed Bool Int20"
+		},
+		{
+			"312" : "Packed Bool Int20"
+		},
+		{
+			"313" : "Packed Bool Int20"
+		},
+		{
+			"314" : "Packed Bool Int20"
+		},
+		{
+			"315" : "Packed Bool Int20"
+		},
+		{
+			"316" : "Packed Bool Int20"
+		},
+		{
+			"317" : "Packed Bool Int20"
+		},
+		{
+			"318" : "Packed Bool Int20"
+		},
+		{
+			"319" : "Packed Bool Int20"
+		},
+		{
+			"320" : "Packed Bool Int20"
+		},
+		{
+			"321" : "Packed Bool Int21"
+		},
+		{
+			"322" : "Packed Bool Int21"
+		},
+		{
+			"323" : "Packed Bool Int21"
+		},
+		{
+			"324" : "Packed Bool Int21"
+		},
+		{
+			"325" : "Packed Bool Int21"
+		},
+		{
+			"326" : "Packed Bool Int21"
+		},
+		{
+			"327" : "Packed Bool Int21"
+		},
+		{
+			"328" : "Packed Bool Int21"
+		},
+		{
+			"329" : "Packed Bool Int21"
+		},
+		{
+			"330" : "Packed Bool Int21"
+		},
+		{
+			"331" : "Packed Bool Int21"
+		},
+		{
+			"332" : "Packed Bool Int21"
+		},
+		{
+			"333" : "Packed Bool Int21"
+		},
+		{
+			"334" : "Packed Bool Int21"
+		},
+		{
+			"335" : "Packed Bool Int21"
+		},
+		{
+			"336" : "Packed Bool Int21"
+		},
+		{
+			"337" : "Packed Bool Int22"
+		},
+		{
+			"338" : "Packed Bool Int22"
+		},
+		{
+			"339" : "Packed Bool Int22"
+		},
+		{
+			"340" : "Packed Bool Int22"
+		},
+		{
+			"341" : "Packed Bool Int22"
+		},
+		{
+			"342" : "Packed Bool Int22"
+		},
+		{
+			"343" : "Packed Bool Int22"
+		},
+		{
+			"344" : "Packed Bool Int22"
+		},
+		{
+			"345" : "Packed Bool Int22"
+		},
+		{
+			"346" : "Packed Bool Int22"
+		},
+		{
+			"347" : "Packed Bool Int22"
+		},
+		{
+			"348" : "Packed Bool Int22"
+		},
+		{
+			"349" : "Packed Bool Int22"
+		},
+		{
+			"350" : "Packed Bool Int22"
+		},
+		{
+			"351" : "Packed Bool Int22"
+		},
+		{
+			"352" : "Packed Bool Int22"
+		},
+		{
+			"353" : "Packed Bool Int23"
+		},
+		{
+			"354" : "Packed Bool Int23"
+		},
+		{
+			"355" : "Packed Bool Int23"
+		},
+		{
+			"356" : "Packed Bool Int23"
+		},
+		{
+			"357" : "Packed Bool Int23"
+		},
+		{
+			"358" : "Packed Bool Int23"
+		},
+		{
+			"359" : "Packed Bool Int23"
+		},
+		{
+			"360" : "Packed Bool Int23"
+		},
+		{
+			"361" : "Packed Bool Int23"
+		},
+		{
+			"362" : "Packed Bool Int23"
+		},
+		{
+			"363" : "Packed Bool Int23"
+		},
+		{
+			"364" : "Packed Bool Int23"
+		},
+		{
+			"365" : "Packed Bool Int23"
+		},
+		{
+			"366" : "Packed Bool Int23"
+		},
+		{
+			"367" : "Packed Bool Int23"
+		},
+		{
+			"368" : "Packed Bool Int23"
+		},
+		{
+			"369" : "Packed Bool Int24"
+		},
+		{
+			"370" : "Packed Bool Int24"
+		},
+		{
+			"371" : "Packed Bool Int24"
+		},
+		{
+			"372" : "Packed Bool Int24"
+		},
+		{
+			"373" : "Packed Bool Int24"
+		},
+		{
+			"374" : "Packed Bool Int24"
+		},
+		{
+			"375" : "Packed Bool Int24"
+		},
+		{
+			"376" : "Packed Bool Int24"
+		},
+		{
+			"377" : "Packed Bool Int24"
+		},
+		{
+			"378" : "Packed Bool Int24"
+		},
+		{
+			"379" : "Packed Bool Int24"
+		},
+		{
+			"380" : "Packed Bool Int24"
+		},
+		{
+			"381" : "Packed Bool Int24"
+		},
+		{
+			"382" : "Packed Bool Int24"
+		},
+		{
+			"383" : "Packed Bool Int24"
+		},
+		{
+			"384" : "Packed Bool Int24"
+		},
+		{
+			"385" : "Packed Bool Int25"
+		},
+		{
+			"386" : "Packed Bool Int25"
+		},
+		{
+			"387" : "Packed Bool Int25"
+		},
+		{
+			"388" : "Packed Bool Int25"
+		},
+		{
+			"389" : "Packed Bool Int25"
+		},
+		{
+			"390" : "Packed Bool Int25"
+		},
+		{
+			"391" : "Packed Bool Int25"
+		},
+		{
+			"392" : "Packed Bool Int25"
+		},
+		{
+			"393" : "Packed Bool Int25"
+		},
+		{
+			"394" : "Packed Bool Int25"
+		},
+		{
+			"395" : "Packed Bool Int25"
+		},
+		{
+			"396" : "Packed Bool Int25"
+		},
+		{
+			"397" : "Packed Bool Int25"
+		},
+		{
+			"398" : "Packed Bool Int25"
+		},
+		{
+			"399" : "Packed Bool Int25"
+		},
+		{
+			"400" : "Packed Bool Int25"
+		},
+		{
+			"401" : "Packed Bool Int26"
+		},
+		{
+			"402" : "Packed Bool Int26"
+		},
+		{
+			"403" : "Packed Bool Int26"
+		},
+		{
+			"404" : "Packed Bool Int26"
+		},
+		{
+			"405" : "Packed Bool Int26"
+		},
+		{
+			"406" : "Packed Bool Int26"
+		},
+		{
+			"407" : "Packed Bool Int26"
+		},
+		{
+			"408" : "Packed Bool Int26"
+		},
+		{
+			"409" : "Packed Bool Int26"
+		},
+		{
+			"410" : "Packed Bool Int26"
+		},
+		{
+			"411" : "Packed Bool Int26"
+		},
+		{
+			"412" : "Packed Bool Int26"
+		},
+		{
+			"413" : "Packed Bool Int26"
+		},
+		{
+			"414" : "Packed Bool Int26"
+		},
+		{
+			"415" : "Packed Bool Int26"
+		},
+		{
+			"416" : "Packed Bool Int26"
+		},
+		{
+			"417" : "Packed Bool Int27"
+		},
+		{
+			"418" : "Packed Bool Int27"
+		},
+		{
+			"419" : "Packed Bool Int27"
+		},
+		{
+			"420" : "Packed Bool Int27"
+		},
+		{
+			"421" : "Packed Bool Int27"
+		},
+		{
+			"422" : "Packed Bool Int27"
+		},
+		{
+			"423" : "Packed Bool Int27"
+		},
+		{
+			"424" : "Packed Bool Int27"
+		},
+		{
+			"425" : "Packed Bool Int27"
+		},
+		{
+			"426" : "Packed Bool Int27"
+		},
+		{
+			"427" : "Packed Bool Int27"
+		},
+		{
+			"428" : "Packed Bool Int27"
+		},
+		{
+			"429" : "Packed Bool Int27"
+		},
+		{
+			"430" : "Packed Bool Int27"
+		},
+		{
+			"431" : "Packed Bool Int27"
+		},
+		{
+			"432" : "Packed Bool Int27"
+		},
+		{
+			"433" : "Packed Bool Int28"
+		},
+		{
+			"434" : "Packed Bool Int28"
+		},
+		{
+			"435" : "Packed Bool Int28"
+		},
+		{
+			"436" : "Packed Bool Int28"
+		},
+		{
+			"437" : "Packed Bool Int28"
+		},
+		{
+			"438" : "Packed Bool Int28"
+		},
+		{
+			"439" : "Packed Bool Int28"
+		},
+		{
+			"440" : "Packed Bool Int28"
+		},
+		{
+			"441" : "Packed Bool Int28"
+		},
+		{
+			"442" : "Packed Bool Int28"
+		},
+		{
+			"443" : "Packed Bool Int28"
+		},
+		{
+			"444" : "Packed Bool Int28"
+		},
+		{
+			"445" : "Packed Bool Int28"
+		},
+		{
+			"446" : "Packed Bool Int28"
+		},
+		{
+			"447" : "Packed Bool Int28"
+		},
+		{
+			"448" : "Packed Bool Int28"
+		},
+		{
+			"449" : "Packed Bool Int29"
+		},
+		{
+			"450" : "Packed Bool Int29"
+		},
+		{
+			"451" : "Packed Bool Int29"
+		},
+		{
+			"452" : "Packed Bool Int29"
+		},
+		{
+			"453" : "Packed Bool Int29"
+		},
+		{
+			"454" : "Packed Bool Int29"
+		},
+		{
+			"455" : "Packed Bool Int29"
+		},
+		{
+			"456" : "Packed Bool Int29"
+		},
+		{
+			"457" : "Packed Bool Int29"
+		},
+		{
+			"458" : "Packed Bool Int29"
+		},
+		{
+			"459" : "Packed Bool Int29"
+		},
+		{
+			"460" : "Packed Bool Int29"
+		},
+		{
+			"461" : "Packed Bool Int29"
+		},
+		{
+			"462" : "Packed Bool Int29"
+		},
+		{
+			"463" : "Packed Bool Int29"
+		},
+		{
+			"464" : "Packed Bool Int29"
+		},
+		{
+			"465" : "Packed Bool Int30"
+		},
+		{
+			"466" : "Packed Bool Int30"
+		},
+		{
+			"467" : "Packed Bool Int30"
+		},
+		{
+			"468" : "Packed Bool Int30"
+		},
+		{
+			"469" : "Packed Bool Int30"
+		},
+		{
+			"470" : "Packed Bool Int30"
+		},
+		{
+			"471" : "Packed Bool Int30"
+		},
+		{
+			"472" : "Packed Bool Int30"
+		},
+		{
+			"473" : "Packed Bool Int30"
+		},
+		{
+			"474" : "Packed Bool Int30"
+		},
+		{
+			"475" : "Packed Bool Int30"
+		},
+		{
+			"476" : "Packed Bool Int30"
+		},
+		{
+			"477" : "Packed Bool Int30"
+		},
+		{
+			"478" : "Packed Bool Int30"
+		},
+		{
+			"479" : "Packed Bool Int30"
+		},
+		{
+			"480" : "Packed Bool Int30"
+		},
+		{
+			"481" : "Packed Bool Int31"
+		},
+		{
+			"482" : "Packed Bool Int31"
+		},
+		{
+			"483" : "Packed Bool Int31"
+		},
+		{
+			"484" : "Packed Bool Int31"
+		},
+		{
+			"485" : "Packed Bool Int31"
+		},
+		{
+			"486" : "Packed Bool Int31"
+		},
+		{
+			"487" : "Packed Bool Int31"
+		},
+		{
+			"488" : "Packed Bool Int31"
+		},
+		{
+			"489" : "Packed Bool Int31"
+		},
+		{
+			"490" : "Packed Bool Int31"
+		},
+		{
+			"491" : "Packed Bool Int31"
+		},
+		{
+			"492" : "Packed Bool Int31"
+		},
+		{
+			"493" : "Packed Bool Int31"
+		},
+		{
+			"494" : "Packed Bool Int31"
+		},
+		{
+			"495" : "Packed Bool Int31"
+		},
+		{
+			"496" : "Packed Bool Int31"
+		},
+		{
+			"497" : "Packed Bool Int32"
+		},
+		{
+			"498" : "Packed Bool Int32"
+		},
+		{
+			"499" : "Packed Bool Int32"
+		},
+		{
+			"500" : "Packed Bool Int32"
+		},
+		{
+			"501" : "Packed Bool Int32"
+		},
+		{
+			"502" : "Packed Bool Int32"
+		},
+		{
+			"503" : "Packed Bool Int32"
+		},
+		{
+			"504" : "Packed Bool Int32"
+		},
+		{
+			"505" : "Packed Bool Int32"
+		},
+		{
+			"506" : "Packed Bool Int32"
+		},
+		{
+			"507" : "Packed Bool Int32"
+		},
+		{
+			"508" : "Packed Bool Int32"
+		},
+		{
+			"509" : "Packed Bool Int32"
+		},
+		{
+			"510" : "Packed Bool Int32"
+		},
+		{
+			"511" : "Packed Bool Int32"
+		},
+		{
+			"512" : "Packed Bool Int32"
+		},
+		{
+			"513" : "Packed Bool Int33"
+		},
+		{
+			"514" : "Packed Bool Int33"
+		},
+		{
+			"515" : "Packed Bool Int33"
+		},
+		{
+			"516" : "Packed Bool Int33"
+		},
+		{
+			"517" : "Packed Bool Int33"
+		},
+		{
+			"518" : "Packed Bool Int33"
+		},
+		{
+			"519" : "Packed Bool Int33"
+		},
+		{
+			"520" : "Packed Bool Int33"
+		},
+		{
+			"521" : "Packed Bool Int33"
+		},
+		{
+			"522" : "Packed Bool Int33"
+		},
+		{
+			"523" : "Packed Bool Int33"
+		},
+		{
+			"524" : "Packed Bool Int33"
+		},
+		{
+			"525" : "Packed Bool Int33"
+		},
+		{
+			"526" : "Packed Bool Int33"
+		},
+		{
+			"527" : "Packed Bool Int33"
+		},
+		{
+			"528" : "Packed Bool Int33"
+		},
+		{
+			"529" : "Packed Bool Int34"
+		},
+		{
+			"530" : "Packed Bool Int34"
+		},
+		{
+			"531" : "Packed Bool Int34"
+		},
+		{
+			"532" : "Packed Bool Int34"
+		},
+		{
+			"533" : "Packed Bool Int34"
+		},
+		{
+			"534" : "Packed Bool Int34"
+		},
+		{
+			"535" : "Packed Bool Int34"
+		},
+		{
+			"536" : "Packed Bool Int34"
+		},
+		{
+			"537" : "Packed Bool Int34"
+		},
+		{
+			"538" : "Packed Bool Int34"
+		},
+		{
+			"539" : "Packed Bool Int34"
+		},
+		{
+			"540" : "Packed Bool Int34"
+		},
+		{
+			"541" : "Packed Bool Int34"
+		},
+		{
+			"542" : "Packed Bool Int34"
+		},
+		{
+			"543" : "Packed Bool Int34"
+		},
+		{
+			"544" : "Packed Bool Int34"
+		},
+		{
+			"545" : "Packed Bool Int35"
+		},
+		{
+			"546" : "Packed Bool Int35"
+		},
+		{
+			"547" : "Packed Bool Int35"
+		},
+		{
+			"548" : "Packed Bool Int35"
+		},
+		{
+			"549" : "Packed Bool Int35"
+		},
+		{
+			"550" : "Packed Bool Int35"
+		},
+		{
+			"551" : "Packed Bool Int35"
+		},
+		{
+			"552" : "Packed Bool Int35"
+		},
+		{
+			"553" : "Packed Bool Int35"
+		},
+		{
+			"554" : "Packed Bool Int35"
+		},
+		{
+			"555" : "Packed Bool Int35"
+		},
+		{
+			"556" : "Packed Bool Int35"
+		},
+		{
+			"557" : "Packed Bool Int35"
+		},
+		{
+			"558" : "Packed Bool Int35"
+		},
+		{
+			"559" : "Packed Bool Int35"
+		},
+		{
+			"560" : "Packed Bool Int35"
+		},
+		{
+			"561" : "Packed Bool Int36"
+		},
+		{
+			"562" : "Packed Bool Int36"
+		},
+		{
+			"563" : "Packed Bool Int36"
+		},
+		{
+			"564" : "Packed Bool Int36"
+		},
+		{
+			"565" : "Packed Bool Int36"
+		},
+		{
+			"566" : "Packed Bool Int36"
+		},
+		{
+			"567" : "Packed Bool Int36"
+		},
+		{
+			"568" : "Packed Bool Int36"
+		},
+		{
+			"569" : "Packed Bool Int36"
+		},
+		{
+			"570" : "Packed Bool Int36"
+		},
+		{
+			"571" : "Packed Bool Int36"
+		},
+		{
+			"572" : "Packed Bool Int36"
+		},
+		{
+			"573" : "Packed Bool Int36"
+		},
+		{
+			"574" : "Packed Bool Int36"
+		},
+		{
+			"575" : "Packed Bool Int36"
+		},
+		{
+			"576" : "Packed Bool Int36"
+		},
+		{
+			"577" : "Packed Bool Int37"
+		},
+		{
+			"578" : "Packed Bool Int37"
+		},
+		{
+			"579" : "Packed Bool Int37"
+		},
+		{
+			"580" : "Packed Bool Int37"
+		},
+		{
+			"581" : "Packed Bool Int37"
+		},
+		{
+			"582" : "Packed Bool Int37"
+		},
+		{
+			"583" : "Packed Bool Int37"
+		},
+		{
+			"584" : "Packed Bool Int37"
+		},
+		{
+			"585" : "Packed Bool Int37"
+		},
+		{
+			"586" : "Packed Bool Int37"
+		},
+		{
+			"587" : "Packed Bool Int37"
+		},
+		{
+			"588" : "Packed Bool Int37"
+		},
+		{
+			"589" : "Packed Bool Int37"
+		},
+		{
+			"590" : "Packed Bool Int37"
+		},
+		{
+			"591" : "Packed Bool Int37"
+		},
+		{
+			"592" : "Packed Bool Int37"
+		},
+		{
+			"593" : "Packed Bool Int38"
+		},
+		{
+			"594" : "Packed Bool Int38"
+		},
+		{
+			"595" : "Packed Bool Int38"
+		},
+		{
+			"596" : "Packed Bool Int38"
+		},
+		{
+			"597" : "Packed Bool Int38"
+		},
+		{
+			"598" : "Packed Bool Int38"
+		},
+		{
+			"599" : "Packed Bool Int38"
+		},
+		{
+			"600" : "Packed Bool Int38"
+		},
+		{
+			"601" : "Packed Bool Int38"
+		},
+		{
+			"602" : "Packed Bool Int38"
+		},
+		{
+			"603" : "Packed Bool Int38"
+		},
+		{
+			"604" : "Packed Bool Int38"
+		},
+		{
+			"605" : "Packed Bool Int38"
+		},
+		{
+			"606" : "Packed Bool Int38"
+		},
+		{
+			"607" : "Packed Bool Int38"
+		},
+		{
+			"608" : "Packed Bool Int38"
+		},
+		{
+			"609" : "Packed Bool Int39"
+		},
+		{
+			"610" : "Packed Bool Int39"
+		},
+		{
+			"611" : "Packed Bool Int39"
+		},
+		{
+			"612" : "Packed Bool Int39"
+		},
+		{
+			"613" : "Packed Bool Int39"
+		},
+		{
+			"614" : "Packed Bool Int39"
+		},
+		{
+			"615" : "Packed Bool Int39"
+		},
+		{
+			"616" : "Packed Bool Int39"
+		},
+		{
+			"617" : "Packed Bool Int39"
+		},
+		{
+			"618" : "Packed Bool Int39"
+		},
+		{
+			"619" : "Packed Bool Int39"
+		},
+		{
+			"620" : "Packed Bool Int39"
+		},
+		{
+			"621" : "Packed Bool Int39"
+		},
+		{
+			"622" : "Packed Bool Int39"
+		},
+		{
+			"623" : "Packed Bool Int39"
+		},
+		{
+			"624" : "Packed Bool Int39"
+		},
+		{
+			"625" : "Packed Bool Int40"
+		},
+		{
+			"626" : "Packed Bool Int40"
+		},
+		{
+			"627" : "Packed Bool Int40"
+		},
+		{
+			"628" : "Packed Bool Int40"
+		},
+		{
+			"629" : "Packed Bool Int40"
+		},
+		{
+			"630" : "Packed Bool Int40"
+		},
+		{
+			"631" : "Packed Bool Int40"
+		},
+		{
+			"632" : "Packed Bool Int40"
+		},
+		{
+			"633" : "Packed Bool Int40"
+		},
+		{
+			"634" : "Packed Bool Int40"
+		},
+		{
+			"635" : "Packed Bool Int40"
+		},
+		{
+			"636" : "Packed Bool Int40"
+		},
+		{
+			"637" : "Packed Bool Int40"
+		},
+		{
+			"638" : "Packed Bool Int40"
+		},
+		{
+			"639" : "Packed Bool Int40"
+		},
+		{
+			"640" : "Packed Bool Int40"
+		}
+	]
+}

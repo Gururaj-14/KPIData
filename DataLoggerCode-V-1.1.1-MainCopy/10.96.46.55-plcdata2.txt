@@ -1,0 +1,1 @@
+gantry:Crane36_PN_TO_Crane_iJoystick3XSetpoint,1,0;Crane36_PN_TO_Crane_iJoystick2ExtraSetpoint,1,0;Crane36_PN_TO_Crane_iJoystick2XSetpoint,1,0;Kalmar_COM_Crane40_SPARE_INT2,1,0;Kalmar_COM_Crane40_SPARE_INT5,1,0;|
