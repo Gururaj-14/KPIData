@@ -1,30 +1,53 @@
 pipeline {
-	environment {
-        DOCKER_IMAGE = 'ubuntu_for_qt'
-        WORKING_DIRECTORY = '${WORKSPACE}'
-    }
-    		agent{
-		docker {
-		image "ubuntu_for_qt"
-		}
-		}
-
+    agent {
+        docker {
+            image 'ubuntu_for_qt:latest'
+        }
+     }
     stages {
-        stage('Checkout') {
+        stage('Checkout') {	
             steps {
-		script{
-			echo "${WORKSPACE}"
-		// def dockerImage = docker.image("${DOCKER_IMAGE}")
-  //                   dockerImage.inside("-v //c/programData/jenkins/.jenkins/workspace/plc_simulator:/app -w /app") {
-		sh 'echo "Working directory mounted successfully"'
-
-		//def containerId = sh(script: 'docker run -d ubuntu', returnStdout: true).trim()
-		//sh "docker exec -it ${containerId} ls -l"
-		//sh "docker exec -it ${containerId} git branch: "example", url: 'https://github.com/Gururaj-14/KPIData.git'"
-		//bat 'docker run ubuntu_for_qt:latest bash -c "echo Hello World"'
-		    }
+		sh 'ls'
+		sh'pwd'
+		    
+                //sh 'unzip *Code*.zip'
+		sh 'pwd'
+		sh 'cd plcsimulator'
+		sh 'pwd'
+		sh 'ls'
+		sh 'pwd'
 		}
-	   // }
-	}
+            }
+        }
+        stage('Clean') {
+            steps {
+		sh 'pwd'
+                sh 'cd plcsimulator/ && qmake -makefile'
+		}
+            }
+        }
+        stage('Configure') {
+            steps {
+                 sh 'cd plcsimulator/ && make'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                sh 'cd plcsimulator/ && make clean'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo 'test'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                  echo 'Deploy'
+            }
+        }
     }
 }
