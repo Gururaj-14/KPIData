@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'ubuntu_for_qt:latest'
+            image 'ubuntu_for_qt8:latest'
         }
      }
     stages {
