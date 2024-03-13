@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = plcsimulator1.0.0
-DISTDIR = /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/.tmp/plcsimulator1.0.0
+DISTDIR = /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/.tmp/plcsimulator1.0.0
 LINK          = g++
 LFLAGS        = -rdynamic -Wl,-O1
 LIBS          = $(SUBLIBS) /usr/lib/x86_64-linux-gnu/libQt5Quick.so /usr/lib/x86_64-linux-gnu/libQt5Widgets.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so /usr/lib/x86_64-linux-gnu/libQt5Qml.so /usr/lib/x86_64-linux-gnu/libQt5Network.so /usr/lib/x86_64-linux-gnu/libQt5Core.so /usr/lib/x86_64-linux-gnu/libGL.so -lpthread   
@@ -458,33 +458,33 @@ compiler_qmlcache_clean:
 	-$(DEL_FILE) PLCTreeSettingsButton_qml.cpp PLCTreeCheckBox_qml.cpp PLCFuzzSettingsPrompt_qml.cpp PLCTreeView_qml.cpp main_qml.cpp ROSElement_qml.cpp
 PLCTreeSettingsButton_qml.cpp: PLCTreeSettingsButton.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeSettingsButton_qml.cpp PLCTreeSettingsButton.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeSettingsButton_qml.cpp PLCTreeSettingsButton.qml
 
 PLCTreeCheckBox_qml.cpp: PLCTreeCheckBox.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeCheckBox_qml.cpp PLCTreeCheckBox.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeCheckBox_qml.cpp PLCTreeCheckBox.qml
 
 PLCFuzzSettingsPrompt_qml.cpp: PLCFuzzSettingsPrompt.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCFuzzSettingsPrompt_qml.cpp PLCFuzzSettingsPrompt.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCFuzzSettingsPrompt_qml.cpp PLCFuzzSettingsPrompt.qml
 
 PLCTreeView_qml.cpp: PLCTreeView.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeView_qml.cpp PLCTreeView.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o PLCTreeView_qml.cpp PLCTreeView.qml
 
 main_qml.cpp: main.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o main_qml.cpp main.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o main_qml.cpp main.qml
 
 ROSElement_qml.cpp: ROSElement.qml \
 		/usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o ROSElement_qml.cpp ROSElement.qml
+	/usr/lib/qt5/bin/qmlcachegen --resource=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o ROSElement_qml.cpp ROSElement.qml
 
 compiler_qmlcache_loader_make_all: qmlcache_loader.cpp
 compiler_qmlcache_loader_clean:
 	-$(DEL_FILE) qmlcache_loader.cpp
 qmlcache_loader.cpp: qml.qrc /usr/lib/qt5/bin/qmlcachegen
-	/usr/lib/qt5/bin/qmlcachegen --resource-file-mapping=/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o qmlcache_loader.cpp qml.qrc
+	/usr/lib/qt5/bin/qmlcachegen --resource-file-mapping=/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/qml.qrc -o qmlcache_loader.cpp qml.qrc
 
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
@@ -508,33 +508,33 @@ moc_plcmessage.cpp: plcmessage.h \
 		testlogger.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include plcmessage.h -o moc_plcmessage.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include plcmessage.h -o moc_plcmessage.cpp
 
 moc_treeitem.cpp: treeitem.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include treeitem.h -o moc_treeitem.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include treeitem.h -o moc_treeitem.cpp
 
 moc_treemodel.cpp: treemodel.h \
 		treeitem.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include treemodel.h -o moc_treemodel.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include treemodel.h -o moc_treemodel.cpp
 
 moc_udpclient.cpp: udpclient.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include udpclient.h -o moc_udpclient.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include udpclient.h -o moc_udpclient.cpp
 
 moc_udpserver.cpp: udpserver.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include udpserver.h -o moc_udpserver.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include udpserver.h -o moc_udpserver.cpp
 
 moc_workerthread.cpp: workerthread.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include workerthread.h -o moc_workerthread.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator -I/home/harsha/Downloads/bit_test/KPIData/PLCSimulatorApplication-main-Harsha/PLCSimulatorApplication-main/plcsimulator/datablocks -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtQuick -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtQml -I/usr/include/x86_64-linux-gnu/qt5/QtNetwork -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include workerthread.h -o moc_workerthread.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
